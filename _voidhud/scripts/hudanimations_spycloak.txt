@@ -1,0 +1,20 @@
+//===========================================
+
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+}
+
+event HudSpyDisguiseHide
+{
+}
+
+event HudSpyDisguiseFadeIn
+{
+}
+
+event HudSpyDisguiseFadeOut
+{
+}
+
+//===========================================

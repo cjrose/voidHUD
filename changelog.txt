@@ -1,0 +1,551 @@
+voidHUD Changelog
+
+----------------------------------------------
+		Release 9.26.2020
+----------------------------------------------
++ Initial beginning of the voidHUD Rewrite
++ Player health and ammo
++ Medic uber charge meter
++ Engineer metal count
++ Killfeed
++ General font override
++ Spectator HUD
++ TargetIDs
++ Killstreak and Player class
+
+
+OLD VOIDHUD2.0 CHANGELOGS. EVERYTHING BEFORE THIS IS FROM THE REWRITE
+
+----------------------------------------------
+        Version 2.4.3
+----------------------------------------------
++ Added content I missed to the main menu
+~ Fixed an issue with classes not showing at the top of the screen
+
+
+----------------------------------------------
+				Version 2.4.2.1
+----------------------------------------------
+~ Fixed phlog meter appearing to the right side of the screen
+
+
+----------------------------------------------
+				Version 2.4.2
+----------------------------------------------
++ Updated for Jungle Inferno
++ Reworked the main menu to include new features. I may change the sizings of the buttons at some point to match the width of the new stuff
+
+
+----------------------------------------------
+                Version 2.4.1.2
+----------------------------------------------
++ Added the create local server button to the dropdown menu ~credit to ObsidianMinor
++ Added the passtime HUD ~credit to ObsidianMinor
+
+
+----------------------------------------------
+                Version 2.4.1.1
+----------------------------------------------
+~ Fixed the main menu buttons overlapping buttons such as the replay button and report a bug button
+
+
+----------------------------------------------
+                Version 2.4.1.0
+----------------------------------------------
++ Re-added the main menu!
++ Added support for 4:3 and 16:10 resolutions again!
+
+
+----------------------------------------------
+                Version 2.4.0.1
+----------------------------------------------
+~ Fixed the open console button being stuck in the main menu
+
+
+----------------------------------------------
+                Version 2.4.0.0
+----------------------------------------------
++ Updated all files for the recent TF2 patch
+- Removed the main menu for now, will redo it later
+
+
+----------------------------------------------
+				Version 2.3.0.8
+----------------------------------------------
+~ Updated all files for the recent TF2 patch
+~ Fixed the winpanel displaying incorrectly
+
+
+----------------------------------------------
+				Version 2.3.0.7
+----------------------------------------------
+~ Reverted the tournament ready up panel to what it was prior to the matchmaking updates
+~ Fixed the team names in the scoreboard being below the red / blue colored panels
+~ Fixed itemmodelpanelcollectionitem.txt being a .txt file extension rather than a .res
+
+
+----------------------------------------------
+				Version 2.3.0.6
+----------------------------------------------
++ Updated files for today's update
++ Added stream panel to the main menu
+* Also as a side note, Valve finally fixed the time panel not displaying in non-matchmaking formats
+
+----------------------------------------------
+				Version 2.3.0.5
+----------------------------------------------
+~ Fixed the alignment of the competitive MM button in the main menu for 4:3
++ Put the voidHUD font in the Matchmaking KOTH timers
++ Added the report player button to the in-game menu
+
+
+----------------------------------------------
+				Version 2.3.0.4
+----------------------------------------------
+~ Fixed round timers not displaying
++ Added support for todays update
+
+----------------------------------------------
+				Version 2.3.0.3
+----------------------------------------------
+~ Fixed ready up panels for matchmaking not appearing correctly
++ Added voidHUD fonts to the match summary panel
+
+
+----------------------------------------------
+				Version 2.3.0.2
+----------------------------------------------
+~ This update should fix everything for matchmaking.  Custom files may still crash the game, so be wary.
++ Added new fonts to clientscheme
++ Fixed HudTournament ready up panel
++ Fixed the winpanel at the end not displaying properly
+- Removed custom crosshair instances still being in the old hudlayout.res of 4x3 and 16x10 resolutions
+
+
+----------------------------------------------
+				Version 2.3.0.1
+----------------------------------------------
++ Added necessary files for the Matchmaking update!
+!! Report any bugs to me right away !!
+
+
+----------------------------------------------
+				Version 2.3.0.0
+----------------------------------------------
+- Removed custom crosshairs, they were buggy, bad, and poorly implemented by myself.  Users can install their own custom crosshairs
+- Removed the sourcescheme file.  This will remove the net_graph current style.  To get a small net_graph, type net_graphproportionalfont 0
+~ Applied the similar update to boredHUD related to hudanimations files, meaning they will no longer be the cause of the hud breaking in future updates
+
+
+----------------------------------------------
+				Version 2.2.9.9
+----------------------------------------------
++ Added matchmaking button to main menu
+
+
+----------------------------------------------
+				Version 2.2.9.8
+----------------------------------------------
+~ Fixed the scoreboard for the latest patch
+
+
+----------------------------------------------
+				Version 2.2.9.7
+----------------------------------------------
+~ Added extra HUD things in Tough Break
+
+
+----------------------------------------------
+				Version 2.2.9.6
+----------------------------------------------
+~ Updated for Tough Break Update
+
+
+----------------------------------------------
+				Version 2.2.9.5
+----------------------------------------------
+~ Fixed the pass time HUD
+
+
+----------------------------------------------
+				Version 2.2.9.4
+----------------------------------------------
+- Removed Halloween background
+
+
+----------------------------------------------
+				Version 2.2.9.3
+----------------------------------------------
+~ Fixed alignment issues for engy build menus in 4:3
+~ Fixed overlapping of wheel of doom spells and health
+~ Fixed a HUD error in the console related to contracts
+
+
+----------------------------------------------
+				Version 2.2.9.2
+----------------------------------------------
+~ Hotfix for some bugs post update 2.2.9
++ Centered the stats in the 4:3 scoreboard
+
+
+----------------------------------------------
+				Version 2.2.9.1
+----------------------------------------------
+~ Fixed contracts
+
+
+----------------------------------------------
+				Version 2.2.9
+----------------------------------------------
++ Updated for Halloween 2015
+
+
+----------------------------------------------
+				Version 2.2.8.2
+----------------------------------------------
+~ Fixed some alignment issues in 4:3 resolution
++ Added playerclass image when not using the 3D model in the HUD.
++ Made damage indicators slightly smaller
++ Made HUD version number visible in 4:3 resolution 
+
+
+----------------------------------------------
+				Version 2.2.8.1
+----------------------------------------------
+~ Repositioned the cycling item display in the main menu to what it used to be
++ Added missing content I didn't upload in last HUD update
++ Updated the Player Destruction HUD
+
+
+----------------------------------------------
+				Version 2.2.8
+----------------------------------------------
++ Added new Invasion main menu content
+
+
+----------------------------------------------
+				Version 2.2.7
+----------------------------------------------
++ Added all the new misc stuff Valve added recently
++ Added the "Edit Loadout" button in class selection
+
+
+----------------------------------------------
+				Version 2.2.6.2
+----------------------------------------------
+~ Fixed a bug with pass time related to positioning of floating HUD elements
++ Added fonts & other changes to HUD that Valve made in 8/28/15 patch
+
+
+----------------------------------------------
+				Version 2.2.6.1
+----------------------------------------------
++ Added support for trade up contracts
+
+
+----------------------------------------------
+				Version 2.2.6
+----------------------------------------------
+~ Fixed Medic charge label not being white until first ubercharge
++ Added support for the Passtime gamemode
+
+
+----------------------------------------------
+				Version 2.2.5.1
+----------------------------------------------
+~ Fixed the "time not set" text in stopwatch mode
+~ Correctly centered the dropped money count in MvM
+
+
+----------------------------------------------
+				Version 2.2.5
+----------------------------------------------
+~ Correctly centered the waiting for players label
+~ Correctly centered the overtime and setup labels
++ Added A&D selection when crafting or equipping items
++ Added support to stopwatch tournament modes
++ Added a background to setup label
++ Edited the Wave panel for MvM
++ Edited the "F4 to toggle ready" in MvM
++ Added support for upgrade panel in MvM
++ Added full support for the MvM Scoreboard
++ Moved the MvM currency and put a transparent background behind it
++ Edited the contract panel a bit
++ Made the taunt panel more concise
++ Made the disguise panel more concise
++ Made the build panel more concise
++ Made the Eureka Effect teleport menu more concise
++ Added support for the pipboy
++ Lowered the engineer buildings panels
++ Added support for arena mode
+
+----------------------------------------------
+				Version 2.2.4
+----------------------------------------------
+~ Moved the powerup canteen icon so that it didn't overlap medic ubercharge meter
+~ Fixed the carrier image in MvM
+~ Adjusted the size of the button in the loadout screen to change an item's styles
+~ Fixed the scoreboard from changing values to green
+~ Correctly centered the winpanel
+~ Centered the blocked indicator on control points
++ Edited the round timers
++ Added team colored background to the killstreak panel
++ Edited the team ready panel for tournament mode
++ Edited the controlling team indicator on the timer for koth
++ Updated the HUD logo/imgur album screenshots
+
+
+----------------------------------------------
+				Version 2.2.3.2
+----------------------------------------------
+~ Hot fix from new valve update -- Tournament spectator is now working properly
+
+
+----------------------------------------------
+				Version 2.2.3.1
+----------------------------------------------
+~ Fixed some issues with 16:10 and 4:3 aspect ratios
+
+
+----------------------------------------------
+				Version 2.2.3
+----------------------------------------------
+~ Reverted the engineer's metal count back to the center
++ Added Gun Mettle title screen content
+
+
+----------------------------------------------
+				Version 2.2.2
+----------------------------------------------
+~ Fixed some issues in spectatortournament -- still buggy
+~ Fixed avatar in targetid being off
+~ Fixed inspectionpanel being broken
+- Removed PassiveAttributesLabel from loadout screen
+
+
+----------------------------------------------
+				Version 2.2.1
+----------------------------------------------
++ Added support for the Gunmetal update
++ Moved Engineer metal to under his ammo
+
+----------------------------------------------
+				Version 2.2.0
+----------------------------------------------
+~ Changed the Advanced Options text in main menu so that it didn't get cut off in lower resolutions
+~ Fixed the scoreboard so it doesn't look broken in lower resolutions
+~ Fixed cart recede time being cut off
+~ Fixed Huntsman & Jarate Item meters not being even
+~ Fixed two briefcase icons showing up in doomsday
+~ Fixed engineer pickup icon remaining in the targetID while spectating
+~ Fixed briefcase location on spectated player
++ Added icon for melee powerup in Mannpower
++ Made HUD animations take longer in hopes of fixing the bug where health is red upon respawn
+
+----------------------------------------------
+				Version 2.1.9
+----------------------------------------------
++ Added higher quality item images in inventory & loadouts, credit to wiethoofd for the find
+
+
+----------------------------------------------
+				Version 2.1.8
+----------------------------------------------
+~ Adjusted the Killstreak Leader label in the winpanel so that it is centered
+- Removed the "You came close to your previous best" messages
+
+
+----------------------------------------------
+				Version 2.1.7
+----------------------------------------------
+~ Adjusted position of engineer metal count, so that it doesn't overlap the healing targetID
++ Added a console button to main menu -- per user request
+
+
+----------------------------------------------
+				Version 2.1.6
+----------------------------------------------
+~ Adjusted the inset of the Adv. Options text in Main Menu
+~ Adjusted the color of the medic charge labels
++ Added version number in Main Menu
++ Added a better animation to the medic charge labels
++ Added the vaccinator resist icons
+
+
+----------------------------------------------
+				Version 2.1.5
+----------------------------------------------
+~ Improved the scoreboard numbers
++ Added support for 16x10 aspect ratio, see installation.txt for install instructions
++ Added support for 4x3 aspect ratio, see installation.txt for install instructions
++ Added advance loadout panel uses, change your team color & more control of the model
+
+----------------------------------------------
+				Version 2.1.4
+----------------------------------------------
+~ Actually fixed the deathcam not showing the weapon you were killed with
++ Added a DemoUI and Toggle Minmode button to the scoreboard
++ Added an avatar to the in-game voice chat
+
+
+----------------------------------------------
+                Version 2.1.3
+----------------------------------------------
++ Added an alternate HudPlayerHealth.res, named HudPlayerHealth_cross.res, simply rename it to HudPlayerHealth to use
++ Added closedcaptioning -- type closecaption 1 to enable it
++ Added Fog's Custom Crosshairs  -- read the installation.txt section to install them
++ Added a 6v6 Scoreboard, Accessed through cl_hud_minmode
+- Removed all unnecessary instances of _minmode in files
+
+
+----------------------------------------------
+                Version 2.1.2
+----------------------------------------------
+~ Fixed animations with the killcam HP value
+~ Fixed stickies location, so that they do not overlap with targetIDs
+~ Fixed the new items in shop icon from displaying in the menu
+~ Fixed the deathcam not showing the weapon you were killed with
++ Added more backgrounds to the main menu
+
+----------------------------------------------
+                Version 2.1.0.0
+----------------------------------------------
+~ bug fixes found after initial launch
++ Changed the size of the time panel
+
+
+----------------------------------------------
+                Version 2.0.1.4
+----------------------------------------------
++ Added scoreboard
++ PUBLIC RELEASE!!!!!!!
+
+
+----------------------------------------------
+                Version 2.0.1.3
+----------------------------------------------
+~ Bug fixes
+~ Fixed control point capture teardrop being offcenter
+~ Fixed last damage number overlapping with some ammo elements
+~ Adjusted HP animations
+~ Fixed "blocked" on control points being too large
++ Added winpanel ~~ Imported from broeselhud_blue
+
+
+----------------------------------------------
+                Version 2.0.1.2
+----------------------------------------------
+- Removed building HP icon from killcams
++ Added tournament spectator elements
++ Added health and ammo animations -- Please report bugs for this
++ Added the menus from the old version of VoidHUD
+
+
+----------------------------------------------
+                Version 2.0.1.1
+----------------------------------------------
+~ Moved killstreak counter down to not overlap other elements
++ Added time added from capping a point
++ Added final main menu
++ Added in-game menu
++ Added cp_process_final last background to the HUD
+
+
+----------------------------------------------
+                Version 2.0.1.0
+----------------------------------------------
+~ Adjusted spy disguise panel to not overlap other key elements
+~ Adjusted the font size for building levels and uber percentages
+~ Adjusted chat from clipping into HUD elements ~~ Copy & Paste from broesel
+~ Adjusted capture icon to be smaller
+~ Adjusted the KOTH active capture bg to fit correctly
+~ Messed with the main menu avatar & name just for now
++ Added killcam
+
+
+----------------------------------------------
+                Version 2.0.0.9
+----------------------------------------------
+~ Fixed the active timer BG in KOTH game modes
+~ Moved timer in CP and KOTH downward a tad
++ Added health pickup animation
++ Added A&D backpack page switching
++ Added class selection menu
++ Added the welcome back message and avatar to menu, will be edited later
+
+
+----------------------------------------------
+                Version 2.0.0.8
+----------------------------------------------
++ Added KOTH Timer 
++ Added A/D, CP, and other Timers
+- Removed shadow from targetIDs, caused issues in lower resolutions
+
+
+----------------------------------------------
+                Version 2.0.0.7
+----------------------------------------------
+~ Fixed medic charge being cut off when at 100%
++ Added primary and secondary targetIDs
++ Added spectator targetIDs
++ Added number health when looking at players, rather than the HP crosses
+
+
+----------------------------------------------
+                Version 2.0.0.6
+----------------------------------------------
++ Removed bars and unneeded info from spectator HUD
++ Improved itempanel location
++ Added Paylod, Payload Race, CTF, and Doomsday Objective HUD
++ Added Engineer metal HUD
++ Added respawn timers
+~ Fixed the spycicle item meter.
+
+
+----------------------------------------------
+                Version 2.0.0.5
+----------------------------------------------
+~ Moved the player class 3D model slightly to the left
++ Added control point icons
++ Added killfeed
++ Added damage numbers 
++ Added a SourceScheme that changed the look of net_graph
+
+
+----------------------------------------------
+				Version 2.0.0.4
+----------------------------------------------
++ Added bars for all weapons that have meters
++ Added Killstreak counter below HP
++ Added revenge and head counters 
++ Added Power up canteen UI
++ Added Kart UI from Scream Fortress 2014 event
++ Added Spellbook UI from Scream Fortress 2013 event
+~ Fixed numerical position differences between ammo with clip and ammo without clip
+
+
+----------------------------------------------
+				Version 2.0.0.3
+----------------------------------------------
++ Added spy disguise menu -- note HP cross will be changed to numbers
++ Added medic heal meter for uber & vaccinator charges
+~ Changed background gray to be darker
+
+
+----------------------------------------------
+                Version 2.0.0.2
+----------------------------------------------
++ Finished ammo file
++ Finished editing player class panel
+- Removed days due to issues with scaling
+
+
+----------------------------------------------
+				Version 2.0.0.1
+----------------------------------------------
+~ First redo of the HUD
++ Added new font -- Days
++ Added Ammo numbers
++ Added HP numbers for ammo that has clips & reserve ammo
++ Began editing for player class panel
+- Removed default spy animation while disguising

@@ -1,0 +1,31 @@
+//====================================
+
+// Flash the medic charge hud when we have full charge
+
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	FgColor		"vMedicCharge1"		Linear 0.0 0.3
+	Animate	ChargeLabel 	FgColor		"vMedicCharge2"		Linear 0.3 0.6
+	
+	Animate	ChargeMeter 	FgColor		"vMedicCharge1"		Linear 0.0 0.3
+	Animate	ChargeMeter 	FgColor		"vMedicCharge2"		Linear 0.3 0.6
+
+	RunEvent HudMedicChargedLoop	1.0
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeLabel 	FgColor		"vMedicChargeLabel"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"vMedicChargeMeter"		Linear 0.0 0.0001
+}
+
+//====================================
