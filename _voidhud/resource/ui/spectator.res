@@ -62,7 +62,7 @@
 		"xpos"			"c-300"	
 		"ypos"			"50"	
 		"wide"			"600"	
-		"tall"			"18"
+		"tall"			"40"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"

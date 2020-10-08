@@ -92,11 +92,11 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"s12"
+		"font"			"s10"
 		"xpos"			"8"
 		"ypos"			"17"	[$WIN32]
 		"zpos"			"1"
-		"wide"			"280"
+		"wide"			"f0"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -117,7 +117,7 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"0"	
-		"HealthBonusPosAdj"	"10"
+		"HealthBonusPosAdj"	"45"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"

@@ -1,6 +1,8 @@
 hudanimations_manifest
 {
 
+	"file"		"scripts/hudanimations.txt"
+	
 	"file"		"_voidhud/scripts/hudanimations_ammohealth.txt"
 	"file"		"_voidhud/scripts/hudanimations_mediccharge.txt"
 	"file"		"_voidhud/scripts/hudanimations_fix.txt"

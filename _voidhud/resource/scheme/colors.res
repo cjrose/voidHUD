@@ -35,7 +35,11 @@ Scheme
 		"vPlayerHealthPickupNegative"	"200 50 50 255"
 		"vPlayerDamageAccount"			"255 255 255 255"
 
-		"vMetalCount"					"235 235 235 200"
+		"vMetalCount"					"235 235 235 255"
+
+		"vItemEffectMeterFG"			"235 235 235 255"
+		"vItemEffectMeterBG"			"0 0 0 150"
+		"vItemEffectMeterNumber"		"235 235 235 255"
 
 
 

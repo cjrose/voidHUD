@@ -1,7 +1,16 @@
 voidHUD Changelog
 
 ----------------------------------------------
-		Release 9.26.2020
+		Rewrite Alpha 10.08.2020
+----------------------------------------------
++ Item effect meters
++ Demoman stickybomb count
++ TargetID changes
++ Engineer and medic charge changes / customizations
+
+
+----------------------------------------------
+		Rewrite Alpha 9.26.2020
 ----------------------------------------------
 + Initial beginning of the voidHUD Rewrite
 + Player health and ammo
