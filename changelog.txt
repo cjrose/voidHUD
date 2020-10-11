@@ -1,6 +1,15 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Rewrite Alpha 10.11.2020
+----------------------------------------------
++ Added motd, map info, and map video menus
++ Added hud crosshair
++ Added team and class selection menus
+~ Widened the item effect meters
+
+
+----------------------------------------------
 		Rewrite Alpha 10.08.2020
 ----------------------------------------------
 + Item effect meters

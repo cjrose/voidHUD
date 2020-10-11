@@ -142,10 +142,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-25"
+		"xpos"			"c-50"
 		"ypos"			"c130"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"5"
 		"MeterFG"		"vItemEffectMeterFG"
 		"MeterBG"		"vItemEffectMeterBG"
@@ -166,5 +166,16 @@
 	{
 		"xpos"			"9999"
 		"ypos"			"9999"
+	}
+
+	HudTeamGoal
+	{
+		"fieldName"				"HudTeamGoal"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"9999"
+		"ypos"					"9999"
+		"wide"					"0"
+		"tall"					"0"
 	}
 }

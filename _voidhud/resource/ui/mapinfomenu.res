@@ -1,0 +1,286 @@
+"Resource/UI/MapInfoMenu.res"
+{
+	"mapinfo"
+	{
+		"ControlName"	"Frame"
+		"fieldName"		"mapinfo"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground" "0"
+	}
+
+	"MenuBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MenuBG2"
+		"xpos"			"c-225"
+		"ypos"			"c-150"
+		"wide"			"450"
+		"tall"			"300"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"fillcolor"		"vBlack150"
+	}
+
+	"ScreenBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ScreenBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"vBlack230"
+	}
+	
+	"MapInfoTitle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapInfoTitle"
+		"xpos"			"c-215"
+		"ypos"			"95"
+		"zpos"			"1"
+		"wide"			"225"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%mapname%"
+		"textAlignment"	"west"
+		"font"			"s24"
+		"fgcolor"		"vWhite255"
+	}
+	
+	"MapInfoType"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapInfoType"
+		"xpos"			"c-215"
+		"ypos"			"125"
+		"zpos"			"1"
+		"wide"			"225"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%gamemode%"
+		"textAlignment"	"west"
+		"font"			"s12"
+		"fgcolor"		"vWhite255"
+	}	
+	
+	"MapInfoText"
+	{
+		"ControlName"	"CExRichText"
+		"fieldName"		"MapInfoText"
+		"font"			"s12"
+		"xpos"			"c-218"
+		"ypos"			"150"
+		"zpos"			"3"
+		"wide"			"200"
+		"tall"			"200"
+		"autoResize"	"3"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintborder"	"0"
+		"textAlignment"	"northwest"
+		"fgcolor"		"vWhite255"
+	}
+	
+	"MapImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MapImage"
+		"xpos"			"c5"
+		"ypos"			"95"
+		"zpos"			"2"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""
+		"scaleImage"	"1"		
+	}
+
+	"MapInfoContinue"
+	{
+		"xpos"		"9999"
+		"ypos"		"9999"
+		"visible"	"0"
+		"enabled"	"0"
+	}
+
+	"MapInfoWatchIntro"
+	{
+		"xpos"		"9999"
+		"ypos"		"9999"
+		"visible"	"0"
+		"enabled"	"0"
+	}
+	
+	"MapInfoBack"
+	{
+		"xpos"		"9999"
+		"ypos"		"9999"
+		"visible"	"0"
+		"enabled"	"0"
+	}
+
+	"MapInfoContinue2" 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinue2"
+		"xpos"			"0"
+		"ypos"			"4"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Continue (&E)"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"font"			"sb16"
+		"fgcolor"		"vWhite255"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override" 	"vWhite255"
+		"armedFgColor_override" 	"vWhite200"
+		"depressedFgColor_override" "vWhite200"
+		"selectedFgColor_override" 	"vWhite200"
+
+		"pin_to_sibling"		"MenuBG2"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+	}
+	
+	"MapInfoWatchIntro2" 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoWatchIntro2"
+		"xpos"			"0"
+		"ypos"			"4"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Watch Intro (&M)"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"intro"
+		"default"		"1"
+		"font"			"sb16"
+		"fgcolor"		"vWhite255"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override" 	"vWhite255"
+		"armedFgColor_override" 	"vWhite200"
+		"depressedFgColor_override" "vWhite200"
+		"selectedFgColor_override" 	"vWhite200"
+
+		"pin_to_sibling"		"MenuBG2"
+		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+	}
+	
+	"MapInfoBack2" 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoBack2"
+		"xpos"			"0"
+		"ypos"			"4"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Back (&Q)"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"back"
+		"font"			"sb16"
+		"fgcolor"		"vWhite255"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override" 	"vWhite255"
+		"armedFgColor_override" 	"vWhite200"
+		"depressedFgColor_override" "vWhite200"
+		"selectedFgColor_override" 	"vWhite200"
+		
+		"pin_to_sibling"		"MenuBG2"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"MenuBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"		
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fov"			"20"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
+			"skin"		"0"
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "290"
+			"origin_y" "0"
+			"origin_z" "-39"
+		}
+	}					
+
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"0"
+		"ypos"			"r50"
+		"zpos"			"5"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"	
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+		"PaintBackgroundType"	"0"
+	}		
+}

@@ -1,0 +1,295 @@
+"Resource/UI/IntroMenu.res"
+{
+	"intro"
+	{
+		"ControlName"		"CTFIntroMenu"
+		"fieldName"		"intro"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"	"0"
+	}
+
+	"MenuBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MenuBG2"
+		"xpos"			"c-225"
+		"ypos"			"c-150"
+		"wide"			"450"
+		"tall"			"300"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"fillcolor"		"vBlack150"
+	}
+
+	"ScreenBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ScreenBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"vBlack230"
+	}
+	
+	"titlelabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"titlelabel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"70"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"0"
+		"enabled"			"0"
+		"tabPosition"		"0"
+	}
+
+	"Skip" 
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"Skip"
+		"xpos"			"0"
+		"ypos"			"4"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"Skip (&E)"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"command"		"skip"
+		"font"			"sb16"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override" 	"vWhite255"
+		"armedFgColor_override" 	"vWhite200"
+		"depressedFgColor_override" "vWhite200"
+		"selectedFgColor_override" 	"vWhite200"
+
+		"pin_to_sibling"		"MenuBG2"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+	}
+
+	"Continue" 
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"Continue"
+		"xpos"			"0"
+		"ypos"			"4"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"Continue (&E)"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"command"		"skip"
+		"font"			"sb16"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override" 	"vWhite255"
+		"armedFgColor_override" 	"vWhite200"
+		"depressedFgColor_override" "vWhite200"
+		"selectedFgColor_override" 	"vWhite200"
+
+		"pin_to_sibling"		"MenuBG2"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+	}
+	
+	"Back" 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Back"
+		"xpos"			"0"
+		"ypos"			"4"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Back (&Q)"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"back"
+		"font"			"sb16"
+		"fgcolor"		"vWhite255"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override" 	"vWhite255"
+		"armedFgColor_override" 	"vWhite200"
+		"depressedFgColor_override" "vWhite200"
+		"selectedFgColor_override" 	"vWhite200"
+
+		"pin_to_sibling"		"MenuBG2"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+	}
+
+	"ReplayVideo" 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ReplayVideo"
+		"xpos"			"0"
+		"ypos"			"4"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"Replay (&Q)"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"replayVideo"
+		"font"			"sb16"
+		"fgcolor"		"vWhite255"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override" 	"vWhite255"
+		"armedFgColor_override" 	"vWhite200"
+		"depressedFgColor_override" "vWhite200"
+		"selectedFgColor_override" 	"vWhite200"
+
+		"pin_to_sibling"		"MenuBG2"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+	}
+	
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"	
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+		"PaintBackgroundType"	"0"
+	}		
+	
+	"VideoPanel"
+	{
+		"ControlName"	"CTFVideoPanel"
+		"fieldName"		"VideoPanel"
+		"xpos"			"c-145"
+		"ypos"			"c-145"
+		"zpos"			"3"		
+		"wide"			"300"
+		"tall"			"225"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"start_delay"	"0.5"
+		"end_delay"		"0.5"
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"MenuBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"		
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fov"			"20"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
+			"skin"		"0"
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "290"
+			"origin_y" "0"
+			"origin_z" "-39"
+			
+			"animation"
+			{
+				"name"			"Up"
+				"sequence"		"screenup"
+			}
+			
+			"animation"
+			{
+				"name"			"UpSlow"
+				"sequence"		"screenup_slow"
+			}
+			
+			"animation"
+			{
+				"name"			"Down"
+				"sequence"		"screendown"
+				"default"		"1"
+			}
+		}
+	}					
+	
+	"VideoCaption"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"VideoCaption"
+		"xpos"			"c-145"
+		"ypos"			"c60"
+		"zpos"			"6"
+		"wide"			"295"
+		"tall"			"70"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		" "
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"s12"
+		"fgcolor"		"vWhite255"
+		"wrap"			"1"
+	}
+}

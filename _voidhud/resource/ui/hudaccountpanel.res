@@ -33,7 +33,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
 		"xpos"			"34"
-		"ypos"			"15"
+		"ypos"			"16"
 		"zpos"			"1"
 		"wide"			"6"
 		"tall"			"6"
@@ -41,7 +41,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"vWhite200"
+		"iconColor"		"vMetalCount"
 	}
 	
 	"AccountValue"
@@ -64,5 +64,27 @@
 		"brighttext"	"0"
 		"font"			"sb16"
 		"fgcolor"		"vMetalCount"
+	}
+
+	"AccountValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AccountValueShadow"
+		"xpos"			"29"
+		"ypos"			"6"
+		"zpos"			"1"
+		"wide"			"55"
+		"tall"			"26"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"sb16"
+		"fgcolor"		"vBlack255"
 	}
 }

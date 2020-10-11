@@ -6,9 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 //		"x_offset"		"40"
-		"xpos"			"c-25"	[$WIN32]
+		"xpos"			"c-50"	[$WIN32]
 		"ypos"			"c130"	[$WIN32]
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"vItemEffectMeterFG"
 		"MeterBG"		"vItemEffectMeterBG"
@@ -60,7 +60,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"50"
+		"wide"					"100"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
