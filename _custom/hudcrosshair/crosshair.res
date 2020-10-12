@@ -43,8 +43,8 @@
 		// Adjust the values in order to perfectly center the crosshair //
 		//////////////////////////////////////////////////////////////////
 		
-		"xpos"		"c-50"
-		"ypos"		"c-50"
+		"xpos"		"cs-0.5"
+		"ypos"		"cs-0.5"
 		
 		//////////////////////////////////////////////////////////////////
 		//					     CROSSHAIR COLOR						//

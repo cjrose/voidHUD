@@ -178,4 +178,41 @@
 		"wide"					"0"
 		"tall"					"0"
 	}
+
+	DisguiseStatus
+	{
+		"fieldName" "DisguiseStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"10"
+		"ypos"		"r55"
+		"wide"		"500"
+		"tall"		"200"
+	}
+
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+
+	HudControlPointIcons
+	{
+		"fieldName"				"HudControlPointIcons"
+		"xpos"					"0"
+		"ypos"					"410"
+		"wide"					"f0"
+		"tall"					"200"
+		"visible"				"1"
+		"enabled"				"1"
+		"separator_width"		"1"	// distance between the icons (including their backgrounds)
+		"separator_height"		"1"
+		"height_offset"			"0" // distance from the bottom of the panel
+	}
 }

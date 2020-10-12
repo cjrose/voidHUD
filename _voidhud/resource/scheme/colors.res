@@ -7,6 +7,7 @@ Scheme
 		"vBlack255"			"0 0 0 255"
 		"vBlack230"			"0 0 0 230"
 		"vBlack150"			"0 0 0 150"
+		"vBlack50"			"0 0 0 50"
 		"vBlue255"			"64 98 187 255"
 		"vLightBlue255"		"89 195 195 255"
 		"vWhite255"			"235 235 235 255"
@@ -41,6 +42,22 @@ Scheme
 		"vItemEffectMeterFG"			"235 235 235 255"
 		"vItemEffectMeterBG"			"0 0 0 150"
 		"vItemEffectMeterNumber"		"235 235 235 255"
+
+		"vScoreboardBG"					"0 0 0 50"
+		"vScoreboardKillsColor"			"59 178 115 255"
+		"vScoreboardDeathsColor"		"225 85 85 255"
+		"vScoreboardAssistsColor"		"255 225 100 255"
+		"vScoreboardDamageColor"		"77 157 224 255"
+
+		"vMatchStatusBGRed"				"225 85 85 255"
+		"vMatchStatusBGBlue"			"77 157 224 255"
+		"vMatchStatusBGRedDead"			"0 0 0 200"
+		"vMatchStatusBGBlueDead"		"0 0 0 200"
+		"vMatchStatusHPHigh"			"59 178 115 255"
+		"vMatchStatusHPLow"				"225 85 85 255"
+		"vMatchStatusHPMed"				"255 225 100 255"
+		"vMatchStatusHPOverheal"		"150 230 255 255"
+		"vMatchStatusHPBG"				"0 0 0 150"
 
 
 

@@ -1,6 +1,16 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Rewrite Alpha 10.12.2020
+----------------------------------------------
++ Added the scoreboard
++ Added match status
++ Imported payload, attack defend, payload race, koth, and control point icons from staticHUD
+~ Updated the team menu
+~ Updated the vaccinator charge meters
+
+
+----------------------------------------------
 		Rewrite Alpha 10.11.2020
 ----------------------------------------------
 + Added motd, map info, and map video menus

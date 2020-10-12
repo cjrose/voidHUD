@@ -9,6 +9,7 @@ hudanimations_manifest
 	"file"		"_voidhud/scripts/hudanimations_mediccharge.txt"
 	"file"		"_voidhud/scripts/hudanimations_fix.txt"
 	"file"		"_voidhud/scripts/hudanimations_spycloak.txt"
+	"file"		"_voidhud/scripts/hudanimations_teamstatus.txt"
 
 	"file"		"_defaulthud/scripts/hudanimations_tf.txt"
 }
