@@ -14,6 +14,7 @@ Scheme
 		"vWhite200"			"235 235 235 200"
 		"vRed255"			"244 91 105 255"
 		"vGray255"			"100 100 100 255"
+		"vLightGray255"		"175 175 175 255"
 
 		// Colors for customization
 
@@ -58,6 +59,9 @@ Scheme
 		"vMatchStatusHPMed"				"255 225 100 255"
 		"vMatchStatusHPOverheal"		"150 230 255 255"
 		"vMatchStatusHPBG"				"0 0 0 150"
+
+		"vKothTimerActive"				"230 230 230 255"
+		"vKothTimerInactive"			"175 175 175 255"
 
 
 

@@ -1,6 +1,19 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Rewrite Alpha 10.13.2020
+----------------------------------------------
++ Added freeze panel
++ Added KOTH timers
++ Added the pyro jetpack
++ Added CTF and special delivery HUD elements
++ Added spell icon
++ Added wheel of death icon
++ Added halloween kart charge
++ Added halloween minigame HUD
+
+
+----------------------------------------------
 		Rewrite Alpha 10.12.2020
 ----------------------------------------------
 + Added the scoreboard

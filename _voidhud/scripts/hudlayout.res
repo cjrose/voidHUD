@@ -46,7 +46,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c140"
+		"ypos"		"c100"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
@@ -214,5 +214,36 @@
 		"separator_width"		"1"	// distance between the icons (including their backgrounds)
 		"separator_height"		"1"
 		"height_offset"			"0" // distance from the bottom of the panel
+	}
+
+	HudKothTimeStatus
+	{
+		"fieldName" "HudKothTimeStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"c-100"
+		"ypos"	"0"
+		"wide"	"200"
+		"tall"	"160"
+		
+		"blue_active_xpos"			"16"
+	
+		"red_active_xpos"			"106"
+	}
+
+	HudSpellMenu
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" 	"2"
+		"xpos"			"130"
+		"ypos"			"c140"
+		
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
 	}
 }
