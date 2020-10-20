@@ -18,6 +18,17 @@ Scheme
 	Fonts
 	{
 		// voidHUD fonts
+		"s6"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"6"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
 		"s8"
 		{
 			"1"

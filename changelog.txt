@@ -1,6 +1,15 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Rewrite Beta 10.20.2020
+----------------------------------------------
++ Added win panel
++ Added main menu
+~ Fixed second flag panel appearing in doomsday
+~ Adjusted the freeze panel location
+
+
+----------------------------------------------
 		Rewrite Alpha 10.13.2020
 ----------------------------------------------
 + Added freeze panel

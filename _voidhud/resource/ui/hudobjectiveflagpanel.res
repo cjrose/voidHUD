@@ -414,7 +414,7 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-60"
 		}
 		
 		"if_hybrid_double"
@@ -424,7 +424,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r40"
 		}
 		
 		"if_no_flags"

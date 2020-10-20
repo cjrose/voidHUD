@@ -17,13 +17,13 @@
 // 				  BLUR FONTS 				 //
 ///////////////////////////////////////////////
 
-//#base "scheme/scheme_blur.res"
+//#base "crosshair_scheme/scheme_blur.res"
 
 ///////////////////////////////////////////////
 // 				 SHADOW FONTS 				 //
 ///////////////////////////////////////////////
 
-//#base "scheme/scheme_dropshadow.res"
+//#base "crosshair_scheme/scheme_dropshadow.res"
 
 
 

@@ -15,4 +15,17 @@ event DamagedPlayer
 {
     //	Animate "CustomCrosshair"		FgColor     "255 0 0 255"			Linear 	0.0 	0.00001 	// Crosshair color on hit
     //	Animate "CustomCrosshair"		FgColor     "255 255 255 255"		Linear 	0.10 	0.10001 	// Should match your crosshair color in crosshair.res
+
+
+///////////////////////////////////////HITMARKER CUSTOMIZATION////////////////////////////////////////
+//																									//
+//	Uncomment both lines by removing the // to activate the hitmarker crosshair flashing on damage	//
+//																									//
+//	You can change the number in the second SetVisible line to change how long the hitmarker		//
+// 										is shown on screen											//
+//																									//
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    SetVisible CustomCrosshairHitmarker 1 0
+    SetVisible CustomCrosshairHitmarker 0 0.5
 }

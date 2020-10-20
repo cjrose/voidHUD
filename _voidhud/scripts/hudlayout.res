@@ -184,7 +184,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"
+		"xpos"		"-5"
 		"ypos"		"r55"
 		"wide"		"500"
 		"tall"		"200"
@@ -245,5 +245,18 @@
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
 		"ItemFontPulsing"		"Default"
+	}
+
+	WinPanel
+	{
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"cs-0.5"
+		"ypos"					"r150"
+		"wide"					"200"
+		"tall"					"150"
+		"zpos"					"4"
+		"proportionaltoparent"	"1"
 	}
 }
