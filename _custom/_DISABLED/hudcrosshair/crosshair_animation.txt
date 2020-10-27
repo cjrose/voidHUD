@@ -26,6 +26,6 @@ event DamagedPlayer
 //																									//
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    SetVisible CustomCrosshairHitmarker 1 0
-    SetVisible CustomCrosshairHitmarker 0 0.5
+    //SetVisible CustomCrosshairHitmarker 1 0
+    //SetVisible CustomCrosshairHitmarker 0 0.5
 }

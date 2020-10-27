@@ -103,10 +103,10 @@
     "DiscordButton"
     {
         "label"         ""
-        "command"       "none"
+        "command"       "engine showconsole;clear;echo =====================================================================;echo Get support in our Discord. Copy and paste this link into a browser:;echo discord.gg/NtQ3FsT;echo =====================================================================;"
         "OnlyAtMenu"    "1"
         "subimage"      "replay/thumbnails/mainmenu/icon_discord"
-        "tooltip"       "Get HUD Support - discord.gg/NtQ3FsT"
+        "tooltip"       "Get HUD Support"
     }
 
 	// These buttons are only shown while in-game

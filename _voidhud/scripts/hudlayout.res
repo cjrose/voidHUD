@@ -259,4 +259,94 @@
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}
+
+	BuildingStatus_Spy
+	{
+		"fieldName" "BuildingStatus_Spy"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"640"
+		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
+	}
+
+	"BuildingStatusEngineerAnchor"
+	{
+		"fieldName"		"BuildingStatusEngineerAnchor"
+		"ControlName"	"EditablePanel"
+		"visible"		"0"
+		"enabled"		"1"
+		"xpos"			"-10"
+		"ypos"			"cs-.25"
+		"wide"			"640"
+		"tall"			"480"
+	}
+	
+	BuildingStatus_Engineer
+	{
+		"fieldName" "BuildingStatus_Engineer"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"640"
+		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"BuildingStatusEngineerAnchor"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+	}
+
+	"HudMenuEngyBuild"
+	{
+		"fieldName" 	"HudMenuEngyBuild"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"PaintBackgroundType"	"0"
+	}
+	
+	"HudMenuEngyDestroy"
+	{
+		"fieldName" 	"HudMenuEngyDestroy"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"PaintBackgroundType"	"0"
+	}
+
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c65"
+		"ypos"			"c65"
+		"wide"			"150"
+		"tall"			"100"
+		"PaintBackgroundType"	"0"
+	}
+	
+	"HudMenuSpyDisguise"
+	{
+		"fieldName" 	"HudMenuSpyDisguise"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-52"
+		"wide"			"470"
+		"tall"			"200"	
+		"PaintBackgroundType"	"0"
+	}	
 }

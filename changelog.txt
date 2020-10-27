@@ -1,6 +1,20 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Rewrite Beta 10.27.2020
+----------------------------------------------
++ Added engineer building status
++ Added the in game chat
++ Added engineer build menu
++ Added engineer destroy menu
++ Added engineer eureka effect menu
+~ Adjusted the notification button location on the main menu
+~ Adjusted the MOTD on the main menu
+~ Adjusted how the Discord support button functioned
+~ Removed the BG from the freeze panel
+~ Adjusted the size of the spy disguise name
+
+----------------------------------------------
 		Rewrite Beta 10.20.2020
 ----------------------------------------------
 + Added win panel
