@@ -337,16 +337,28 @@
 		"tall"			"100"
 		"PaintBackgroundType"	"0"
 	}
-	
+
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"r300"
+		"ypos"			"c-50"
+		"wide"			"225"
+		"tall"			"150"
+		"PaintBackgroundType"	"0"
+	}
+
 	"HudMenuSpyDisguise"
 	{
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"wide"			"470"
-		"tall"			"200"	
+		"xpos"			"c100"
+		"ypos"			"c10"
+		"wide"			"125"
+		"tall"			"160"
 		"PaintBackgroundType"	"0"
 	}	
 }

@@ -123,6 +123,29 @@ Scheme
 			}
 		}
 
+		vOutlinedGreyBox
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/loadoutrect/loadout_round_rect_selected"
+			"src_corner_height"		"10"				// pixels inside the image
+			"src_corner_width"		"10"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		vOutlinedDullGreyBox
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/loadoutrect/loadout_round_rect"
+			"src_corner_height"		"10"				// pixels inside the image
+			"src_corner_width"		"10"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+
 		NoBorder
 		{
 			"inset" "0 0 0 0"

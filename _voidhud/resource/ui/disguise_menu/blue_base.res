@@ -1,0 +1,146 @@
+"Resource/UI/disguise_menu/blue_base.res"
+{
+    "ClassBackground"
+    {
+        "ControlName"   "CTFImagePanel"
+        "xpos"          "0"
+        "ypos"          "0"
+        "zpos"          "-10"
+        "wide"          "32"
+        "tall"          "32"
+        "visible"       "1"
+        "enabled"       "1"
+
+        "image"                 "../hud/color_panel_blu"
+        "src_corner_height"     "23"
+        "src_corner_width"      "23"
+        "draw_corner_height"    "0"
+        "draw_corner_width"     "0"
+        "border"                "vBorderWhiteLineOpacity"
+    }
+
+    "ItemNameLabel"
+    {
+        "ControlName"	"CExLabel"
+		"fieldName"		"ItemName"
+		"font"			"Default"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"1"
+		"wide"			"45"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		""
+		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+    }
+
+    "ClassIcon"	
+	{
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+    "vClassIcon"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "vClassIcon"
+        "xpos"          "cs-0.5"
+        "ypos"          "4"
+        "zpos"          "1"
+        "wide"          "24"
+        "tall"          "24"
+        "visible"       "1"
+        "enabled"       "1"
+        "scaleImage"    "1"
+        "image"         "../hud/leaderboard_class_scout"
+        "proportionaltoparent"  "1"
+    }
+
+    "NumberBg"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"	
+		"icon"			"ico_key_blank"
+		"iconColor"		"255 255 255 255"
+		"proportionaltoparent"	"1"
+	}
+
+    "vNumberBG"
+    {
+        "ControlName"   "CTFImagePanel"
+        "fieldName"     "vNumberBG"
+        "xpos"          "0"
+        "ypos"          "0"
+        "zpos"          "5"
+        "wide"          "10"
+        "tall"          "10"
+        "visible"       "1"
+        "enabled"       "1"
+
+        "scaleImage"    "1"
+        "image"         "../hud/color_panel_brown"
+        "src_corner_height"     "23"
+        "src_corner_width"      "23"
+        "draw_corner_height"    "0"
+        "draw_corner_width"     "0"
+
+        "border"            "vBorderWhiteLineOpacity"
+    }
+
+    "NewNumberLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"s10"
+		"fgcolor"		"vWhite255"
+		"xpos"			"3"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"10"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"1"
+		"textAlignment"	"left"
+		"dulltext"		"1"
+		"brighttext"	"0"
+	}
+	
+	"NumberLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"s10"
+		"fgcolor"		"vWhite255"
+		"xpos"			"3"
+		"ypos"			"-3"
+		"zpos"			"6"
+		"wide"			"15"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"1"
+		"textAlignment"	"left"
+		"dulltext"		"1"
+		"brighttext"	"0"
+	}
+}

@@ -293,7 +293,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"labelText"		"voidHUD Rewrite Beta 10.27.2020"
+		"labelText"		"voidHUD Rewrite Beta 10.30.2020"
 		"fgcolor"		"vWhite255"
 		"font"			"s12"
 	}
@@ -876,12 +876,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"r252"
-		"ypos"			"cs-0.55+2"
+		"xpos"			"c100"
+		"ypos"			"65"
 		"zpos"			"100"
-		"wide"			"252"
-		"tall"			"400"
+		"wide"			"300"
+		"tall"			"350"
 		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
@@ -894,7 +896,7 @@
 			"fieldName"		"MOTD_HeaderContainer"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"252"
+			"wide"			"300"
 			"tall"			"22"
 			"visible"		"1"
 			
@@ -907,14 +909,14 @@
 				"labelText"		"%motdheader%"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"252"
+				"wide"			"300"
 				"tall"			"24"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType" "2"
-				"fgcolor_override"	"vWhite255"
+				"fgcolor_override"	"235 226 202 255"
 				"bgcolor_override"	"141 178 61 255"
 			}
 		}
@@ -923,7 +925,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"232"
+			"xpos"			"282"
 			"ypos"			"4"
 			"zpos"			"10"
 			"wide"			"14"
@@ -956,9 +958,8 @@
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"230 230 230 255"
-			"image_armedcolor"	"244 91 105 255"
-
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -999,13 +1000,13 @@
 			"textAlignment"	"west"
 			"xpos"			"10"
 			"ypos"			"25"
-			"wide"			"252"
+			"wide"			"250"
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"vBlack255"
+			"fgcolor"		"LabelDark"
 			"wrap"			"1"
 		}
 		
@@ -1018,13 +1019,13 @@
 			"textAlignment"	"north-west"
 			"xpos"			"10"
 			"ypos"			"40"
-			"wide"			"252"
+			"wide"			"300"
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"vBlack255"
+			"fgcolor"		"LabelDark"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -1034,7 +1035,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"55"
 			"zpos"			"99"
-			"wide"			"252"
+			"wide"			"250"
 			"tall"			"150"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1050,7 +1051,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"55"
 			"zpos"			"100"
-			"wide"			"252"
+			"wide"			"250"
 			"tall"			"150"
 			"visible"		"1"
 			"proportionaltoparent" "1"
@@ -1062,7 +1063,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"100"
-				"wide"			"252"
+				"wide"			"250"
 				"tall"			"250"
 				"visible"		"1"
 				"enabled"		"1"
@@ -1075,12 +1076,12 @@
 		{
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
-			"xpos"			"2"
+			"xpos"			"20"
 			"ypos"			"215"
-			"wide"			"250"
+			"wide"			"280"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
-			"fgcolor"		"vBlack255"
+			"fgcolor"		"LabelDark"
 			
 			"MOTD_TextPanel"
 			{
@@ -1088,7 +1089,7 @@
 				"fieldName"		"MOTD_TextPanel"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"252"
+				"wide"			"250"
 				"tall"			"300"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
@@ -1102,13 +1103,13 @@
 					"textAlignment"	"north-west"
 					"xpos"			"0"
 					"ypos"			"0"
-					"wide"			"252"
+					"wide"			"250"
 					"tall"			"300"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor"		"vBlack255"
+					"fgcolor"		"LabelDark"
 					"wrap"			"1"
 				}
 			}
@@ -1118,7 +1119,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MOTD_URLButton"
-			"xpos"			"50"
+			"xpos"			"75"
 			"ypos"			"rs1.2"
 			"wide"			"150"
 			"tall"			"15"
@@ -1165,7 +1166,7 @@
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
-			"enabled"		"0"
+			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
 			"font"			"HudFontSmallBold"
@@ -1183,8 +1184,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"200 200 200 255"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1205,7 +1206,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_NextButton"
-			"xpos"			"230"
+			"xpos"			"267"
 			"ypos"			"336"
 			"zpos"			"1"
 			"wide"			"20"
@@ -1213,7 +1214,7 @@
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
-			"enabled"		"0"
+			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
 			"font"			"HudFontSmallBold"
@@ -1231,8 +1232,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"200 200 200 255"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1248,7 +1249,7 @@
 				"scaleImage"	"1"
 			}
 		}
-	}
+	}	
 
 	"Notifications_Panel"
 	{
@@ -2361,6 +2362,26 @@
 				"proportionaltoparent"	"1"
 			}		
 		}
+	}
+
+	"StoreHasNewItemsImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StoreHasNewItemsImage"
+		"xpos"			"-18"
+		"ypos"			"0"
+		"zpos"			"13"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../vgui/new"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling"		"vGeneralStoreButton"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 	}
 
 	"vSettingsButton"

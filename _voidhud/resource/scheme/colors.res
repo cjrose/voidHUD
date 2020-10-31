@@ -8,14 +8,19 @@ Scheme
 		"vBlack230"			"0 0 0 230"
 		"vBlack150"			"0 0 0 150"
 		"vBlack50"			"0 0 0 50"
+		"vLighterBlack255"	"25 25 25 255"
 		"vBlue255"			"64 98 187 255"
 		"vLightBlue255"		"89 195 195 255"
+		"vLightBlue150"		"89 195 195 150"
+		"vDarkBlue255"		"48 145 209 255"
 		"vWhite255"			"235 235 235 255"
 		"vWhite200"			"235 235 235 200"
 		"vRed255"			"244 91 105 255"
+		"vLightRed255"		"252 73 73 255"
+		"vDarkRed255"		"215 49 49 255"
+		"vRed150"			"244 91 105 150"
 		"vGray255"			"100 100 100 255"
 		"vLightGray255"		"175 175 175 255"
-
 		// Colors for customization
 
 		"vPlayerHealthColor"			"235 235 235 255"
@@ -62,6 +67,11 @@ Scheme
 
 		"vKothTimerActive"				"230 230 230 255"
 		"vKothTimerInactive"			"175 175 175 255"
+
+		"vRedLoadoutButton"				"215 49 49 255"
+		"vRedLoadoutButtonArmed"		"252 73 73 255"
+		"vBluLoadoutButton"				"64 98 187 255"
+		"vBluLoadoutButtonArmed"		"48 145 209 255"
 
 
 

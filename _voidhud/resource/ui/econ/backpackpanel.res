@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"vLighterBlack255"
+		"infocus_bgcolor_override" 		"vLighterBlack255"
+		"outoffocus_bgcolor_override" 	"vLighterBlack255"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -122,6 +122,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"	"1"
 			}
 
 			"New"
@@ -157,7 +158,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"sb12"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -169,13 +170,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "vRed255"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"sb24"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -228,12 +229,12 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"vWhite255"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "vWhite255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "vWhite255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 	
@@ -241,10 +242,31 @@
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"		"ShowBaseItemsCheckbox"
-		"labelText"		"#ShowBaseItemsCheckBox"
+		"labelText"		""
 		"Font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
-		"xpos"			"c-70"
+		"xpos"			"c-89"
+		"ypos"			"15"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+
+	"vShowBaseItemsCheckbox"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"vShowBaseItemsCheckbox"
+		"labelText"		"#ShowBaseItemsCheckBox"
+		"Font"			"HudFontSmallestBold"
+		"fgcolor"		"vWhite255"
+		"textAlignment"	"west"
+		"xpos"			"c-60"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"200"
@@ -261,7 +283,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"s10"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c+137"
@@ -273,7 +295,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"vWhite255"
 	}
 
 	"NameFilterTextEntry"
@@ -282,7 +304,7 @@
 		"fieldName"		"NameFilterTextEntry"
 		"xpos"		"c+137"
 		"ypos"		"15"
-		"wide"		"90"
+		"wide"		"127"
 		"tall"		"19"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -292,10 +314,10 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"fgcolor_override"	"vBlack255"
+		"bgcolor_override"	"vWhite255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmallest"
+		"font"		"s10"
 	}
 	
 	"SortByComboBox"
@@ -319,12 +341,12 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"vWhite255"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "vWhite255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "vWhite255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 
@@ -395,75 +417,114 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}
 	
-	//"PrevPageButton"
-	//{
-	//	"ControlName"	"CExButton"
-	//	"fieldName"		"PrevPageButton"
-	//	"xpos"			"c195"
-	//	"ypos"			"290"
-	//	"zpos"			"1"
-	//	"wide"			"20"
-	//	"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"
-	//	"enabled"		"1"
-	//	"tabPosition"	"0"
-	//	"labelText"		"<"
-	//	"font"			"HudFontSmallBold"
-	//	"textAlignment"	"center"
-	//	"dulltext"		"0"
-	//	"brighttext"	"0"
-	//	"Command"		"prevpage"
-	//	"sound_depressed"	"UI/buttonclick.wav"
-	//	"sound_released"	"UI/buttonclickrelease.wav"
-	//}		
-	//
-	//"CurPageLabel"
-	//{
-	//	"ControlName"	"CExLabel"
-	//	"fieldName"		"CurPageLabel"
-	//	"font"			"HudFontSmallBold"
-	//	"labelText"		"%backpackpage%"
-	//	"textAlignment"	"center"
-	//	"xpos"			"c220"
-	//	"ypos"			"290"
-	//	"zpos"			"1"
-	//	"wide"			"40"
-	//	"tall"			"20"
-	//	"autoResize"	"1"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"
-	//	"enabled"		"1"
-	//	"fgcolor_override" "200 80 60 255"
-	//}
-	//
-	//"NextPageButton"
-	//{
-	//	"ControlName"	"CExButton"
-	//	"fieldName"		"NextPageButton"
-	//	"xpos"			"c265"
-	//	"ypos"			"290"
-	//	"zpos"			"1"
-	//	"wide"			"20"
-	//	"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"
-	//	"enabled"		"1"
-	//	"tabPosition"	"0"
-	//	"labelText"		">"
-	//	"font"			"HudFontSmallBold"
-	//	"textAlignment"	"center"
-	//	"dulltext"		"0"
-	//	"brighttext"	"0"
-	//	"Command"		"nextpage"
-	//	"sound_depressed"	"UI/buttonclick.wav"
-	//	"sound_released"	"UI/buttonclickrelease.wav"
-	//}		
+	"PrevPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPageButton"
+		"xpos"			"c195"
+		"ypos"			"345"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"<"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"prevpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}		
+	
+	"CurPageLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurPageLabel"
+		"font"			"sb12"
+		"labelText"		"%backpackpage%"
+		"textAlignment"	"center"
+		"xpos"			"c220"
+		"ypos"			"345"
+		"zpos"			"1"
+		"wide"			"40"
+		"tall"			"20"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "vWhite255"
+	}
+	
+	"NextPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextPageButton"
+		"xpos"			"c265"
+		"ypos"			"345"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		">"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"nextpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}		
+
+	"PrevPageBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPageBind"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&A"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"Command"		"prevpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"NextPageBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextPageBind"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&D"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"Command"		"nextpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 	
 	"DragToNextPageButton"
 	{
@@ -542,8 +603,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"c275"
-		"ypos"			"10"
+		"xpos"			"c267"
+		"ypos"			"14"
 		"zpos"			"100"
 		"wide"			"20"
 		"tall"			"20"
@@ -602,7 +663,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "vLighterBlack255"
 		}
 		
 		"TextLabel"
@@ -621,7 +682,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "vLighterBlack255"
 		}
 		
 		"CloseButton"
@@ -650,9 +711,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -715,11 +776,11 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"vWhite255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -777,7 +838,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "vLighterBlack255"
 		}
 		
 		"TextLabel"
@@ -796,7 +857,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "vLighterBlack255"
 		}
 		
 		"CloseButton"
@@ -825,9 +886,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -872,11 +933,11 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"vWhite255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -937,11 +998,11 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"vWhite255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -999,7 +1060,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "vLighterBlack255"
 		}
 		
 		"TextLabel"
@@ -1018,7 +1079,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "vLighterBlack255"
 		}
 		
 		"CloseButton"
@@ -1047,9 +1108,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1094,11 +1155,11 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"vWhite255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1141,11 +1202,11 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"vWhite255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1221,7 +1282,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "vLighterBlack255"
 		}
 		
 		"TextLabel"
@@ -1240,7 +1301,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "vLighterBlack255"
 		}
 		
 		"CloseButton"
@@ -1269,9 +1330,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1316,11 +1377,11 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"vWhite255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1363,11 +1424,11 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"vWhite255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1442,7 +1503,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "vLighterBlack255"
 		}
 		
 		"TextLabel"
@@ -1461,7 +1522,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "vLighterBlack255"
 		}
 		
 		"CloseButton"
@@ -1490,9 +1551,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1537,11 +1598,11 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "vLighterBlack255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "vLighterBlack255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"vWhite255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
