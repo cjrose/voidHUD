@@ -7,7 +7,7 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		    Linear  0.0     0.4
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			    Linear  0.4     0.8
 
-	
+	Animate TourneyStatusHealthBonusImage	Alpha		"255"			Linear 	0.0		0.0001
 
     Animate PlayerStatusHealthValue         FgColor     "vPlayerHealthOverheal" Linear  0.0     0.0001
 
@@ -25,6 +25,7 @@ event HudHealthBonusPulseStop
     Animate PlayerStatusHealthValue         FgColor     "vPlayerHealthColor" Linear  0.0     0.0001
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			    	 Linear  0.0			0.0001
 	Animate	PlayerStatusHealthBonusImage2 	Alpha		"0"			    	 Linear  0.0			0.0001
+	Animate TourneyStatusHealthBonusImage	Alpha		"0"					 Linear  0.0			0.0001 
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 }
@@ -36,6 +37,7 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear  0.0     0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear  0.2     0.4
+	Animate TourneyStatusHealthLowImage		Alpha		"255"		Linear 	0.0		0.0001
 
     Animate PlayerStatusHealthValue         FgColor     "vPlayerHealthLow"   Linear  0.0     0.0001
     Animate PlayerStatusHealthValue2        FgColor     "vPlayerHealthLow"   Linear  0.0     0.0001
@@ -54,6 +56,7 @@ event HudHealthDyingPulseStop
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear  0.0 0.0001
     Animate PlayerStatusHealthValue         FgColor     "vPlayerHealthColor"   Linear  0.0     0.0001
     Animate PlayerStatusHealthValue2        FgColor     "vPlayerHealthColor"     Linear  0.0     0.0001
+	Animate TourneyStatusHealthLowImage		Alpha		"0"		Linear 	0.0		0.0001
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 }
@@ -63,7 +66,8 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {
 	
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear  0.0     0.0001
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear  0.0     0.0001	
+
 
     Animate PlayerStatusHealthValue         FgColor     "vPlayerHealth"   Linear  0.0     0.0001
     Animate PlayerStatusHealthValue2        FgColor     "vPlayerHealthColor"   Linear  0.0     0.0001

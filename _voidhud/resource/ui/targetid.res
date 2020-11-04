@@ -2,30 +2,46 @@
 {
 	"TargetIDBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-32"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"20"
+		"wide"			"f0"
+		"tall"	 		"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			""
+		"image"			"../hud/misc_ammo_area_brown"
 		"scaleImage"		"1"
-		"teambg_1"		""
-		"teambg_2"		""
-		"teambg_3"		""
-		"fillcolor"		"vBlack150"
+		"teambg_1"		"../hud/misc_ammo_area_brown"
+		"teambg_2"		"../hud/misc_ammo_area_red"
+		"teambg_3"		"../hud/misc_ammo_area_blue"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
+
+	"TargetIDBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TargetIDBG2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"252"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"vBlack150"
+	}
+
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"

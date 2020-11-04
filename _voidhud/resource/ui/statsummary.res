@@ -10,7 +10,6 @@
 		"tall"		"480"
 		"visible"	"1"
 		"enabled"	"1"
-		"bgcolor_override"	"vLighterBlack255"
 	}
 
 	"MainBackground"

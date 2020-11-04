@@ -72,16 +72,25 @@
         "tooltip"       "Change Your TF2 Settings"
     }
 
-    // These buttons are only shown while at the main menu
-    // and also are positioned by the .res file
     "ConsoleButton"
     {
         "label"         ""
         "command"       "engine toggleconsole"
-        "OnlyAtMenu"    "1"
+        "OnlyInGame"    "0"
         "subimage"      "replay/thumbnails/mainmenu/icon_atomic"
         "tooltip"       "Toggle Console"
     }
+
+    "MinmodeToggleButton"
+    {
+        "label"         ""
+        "command"       "engine incrementvar cl_hud_minmode 0 1 1"
+        "OnlyInGame"    "0"
+        "tooltip"       "Toggle between casual and competitive scoreboards"
+    }
+
+    // These buttons are only shown while at the main menu
+    // and also are positioned by the .res file
 
     "DemoUIButton"
     {
@@ -92,12 +101,13 @@
         "tooltip"       "Open Demo UI"
     }
 
-    "MinmodeToggleButton"
+    "CommunityServerButton"
     {
         "label"         ""
-        "command"       "incrementvar cl_hud_minmode 0 1 1"
+        "command"       "openserverbrowser"
         "OnlyAtMenu"    "1"
-        "tooltip"       "Toggle between casual and competitive scoreboards"
+        "subimage"      "replay/thumbnails/mainmenu/icon_globe"
+        "tooltip"       "Open Server Browser"
     }
 
     "DiscordButton"

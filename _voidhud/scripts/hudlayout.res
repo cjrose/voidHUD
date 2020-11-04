@@ -361,4 +361,71 @@
 		"tall"			"160"
 		"PaintBackgroundType"	"0"
 	}	
+
+	HudArenaPlayerCount
+	{
+		"fieldName"				"HudArenaPlayerCount"		
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"40"
+		"wide"					"f0"
+		"tall"					"50"
+	}	
+
+	ArenaWinPanel
+	{
+		"fieldName"				"ArenaWinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"cs-0.5"
+		"ypos"					"r225"
+		"wide"					"450"
+		"tall"					"218"
+	}
+
+	HudVoiceStatus
+	{
+		"fieldName" "HudVoiceStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "r145" 
+		"ypos" "0" 
+		"wide" "145"
+		"tall" "400"
+
+		"item_wide"	"135"
+		"item_tall"	"20"
+		
+		"show_avatar"		"1"
+		"avatar_xpos"		"-11"
+		"avatar_ypos"		"1"
+		"avatar_wide"		"18"
+		"avatar_tall"		"18"
+		
+		"show_dead_icon"	"1"
+		"dead_xpos"			"18"
+		"dead_ypos"			"3"
+		"dead_wide"			"16"
+		"dead_tall"			"16"
+		
+		"show_voice_icon"	"0"
+		"icon_ypos"			"0"
+		"icon_xpos"			"15"
+		"icon_tall"			"16"
+		"icon_wide"			"16"
+		
+		"text_xpos"			"33"
+	}
+
+	HudArenaClassLayout
+	{
+		"fieldName"				"HudArenaClassLayout"		
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"cs-0.8"
+		"wide"					"f0"
+		"tall"					"320"
+	}
 }

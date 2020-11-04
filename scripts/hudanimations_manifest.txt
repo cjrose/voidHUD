@@ -13,6 +13,7 @@ hudanimations_manifest
 	"file"		"_voidhud/scripts/hudanimations_koth.txt"
 	"file"		"_voidhud/scripts/hudanimations_ctf.txt"
 	"file"		"_voidhud/scripts/hudanimations_chatfix.txt"
+	"file"		"_voidhud/scripts/hudanimations_tournament.txt"
 
 	"file"		"_defaulthud/scripts/hudanimations_tf.txt"
 }

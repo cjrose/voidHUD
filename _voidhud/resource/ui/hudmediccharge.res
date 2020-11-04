@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c10"
+		"xpos"			"c63"
 		"ypos"			"c80"
 		"zpos"			"2"
 		"wide"			"200"
@@ -33,7 +33,7 @@
 		"tabPosition"	"0"
 		//"labelText"		"#TF_Ubercharge"
 		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"east"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"sb60"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"c-40"
+		"xpos"			"c-50"
 		"ypos"			"c80"
 		"zpos"			"2"
 		"wide"			"200"

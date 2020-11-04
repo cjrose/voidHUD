@@ -1,0 +1,11 @@
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"c-90 -120"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 120"	Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-90 120"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 -120"	Spline 0.001 0.2
+}

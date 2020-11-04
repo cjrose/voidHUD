@@ -2,7 +2,7 @@
 {
 	"TooltipPanel"
 	{
-	//	"ControlName"	"ImagePanel"
+		//"ControlName"	"ImagePanel"
 		"fieldName"		"TooltipPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -22,17 +22,17 @@
 
 			if_small
 			{
-				"font"	"FontStoreOriginalPrice"
+				"font"	"s10"
 			}
 
 			if_medium
 			{
-				"font"	"HudFontSmall"
+				"font"	"s12"
 			}
 
 			if_large
 			{
-				"font"	"HudFontSmallBold"
+				"font"	"s16"
 			}
 
 			"labelText"		"%tiptext%"

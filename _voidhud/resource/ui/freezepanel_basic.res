@@ -103,8 +103,8 @@
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"s8"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-2.0"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"1"
 			"wide"			"150"
 			"tall"			"12"
@@ -116,8 +116,6 @@
 			"textAlignment"		"center"
 			"dulltext"		"0"
 			"brighttext"		"0"
-
-			"proportionaltoparent"	"1"
 		}
 		
 		"FreezePanelHealth"		[$WIN32]
@@ -192,8 +190,8 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"cs-5.3"
-			"ypos"			"CS-1.69"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-2.0"
 			"zpos"			"0"
 			"wide"			"14"
 			"tall"			"14"

@@ -189,35 +189,35 @@
 		
 		if_halloween_0
 		{
-			"image"		"../console/title_team_halloween2011_widescreen"
+			"image"		"../console/background_upward_widescreen"
 		}
 		if_halloween_1
 		{
-			"image"		"../console/title_team_halloween2012_widescreen"
+			"image"		"../console/background_upward_widescreen"
 		}
 		if_halloween_2
 		{
-			"image"		"../console/title_team_halloween2013_widescreen"
+			"image"		"../console/background_upward_widescreen"
 		}
 		if_halloween_3
 		{
-			"image"		"../console/title_team_halloween2014_widescreen"
+			"image"		"../console/background_upward_widescreen"
 		}
 		if_halloween_4
 		{	
-			"image"		"../console/title_team_halloween2015_widescreen"
+			"image"		"../console/background_upward_widescreen"
 		}
 		if_halloween_5
 		{	
-			"image"		"../console/title_scream_fortress_2017_widescreen"
+			"image"		"../console/background_upward_widescreen"
 		}
 		if_fullmoon
 		{
-			"image"		"../console/title_fullmoon_widescreen"
+			"image"		"../console/background_upward_widescreen"
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		"../console/background_upward_widescreen"
 		}		
 	}
 
@@ -293,7 +293,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"labelText"		"voidHUD Rewrite Beta 10.30.2020"
+		"labelText"		"voidHUD Release 11.04.2020"
 		"fgcolor"		"vWhite255"
 		"font"			"s12"
 	}
@@ -1582,6 +1582,55 @@
 
 			"bgcolor_override"	"vBlack150"
 			"border"		"vBorderWhiteLineOpacity"
+		}
+	}
+
+	"FriendsStreamerMode"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"FriendsStreamerMode"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.75-2"
+		"zpos"			"1"
+		"wide"			"346"
+		"tall"			"108"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"border"		"vBorderWhiteLineOpacity"
+
+		"bg"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"bg"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"visible"		"1"
+			"enabled"		"1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"fillcolor"		"vBlack150"
+		}
+
+		"InfoLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"InfoLabel"
+			"labelText"		"Friends are currently hidden in streamer mode"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"2"
+			"font"			"s12"
+			"wide"			"f0"
+			"tall"			"f0"
+			"wrap"			"1"
+			"centerwrap"	"1"
+			"textAlignment"	"center"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"vWhite255"
+			"proportionaltoparent"	"1"
 		}
 	}
 
@@ -2930,15 +2979,12 @@
 		}				
 	}
 
-	// OnlyAtMenu Buttons
-	// Have associated stuff in gamemenu.res
-
 	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
-		"xpos"			"c-94"
-		"ypos"			"c136"
+		"xpos"			"c-146"
+		"ypos"			"c83"
 		"zpos"			"12"
 		"wide"			"32"
 		"tall"			"32"
@@ -2996,11 +3042,77 @@
 		}
 	}
 
+	"MinmodeToggleButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"MinmodeToggleButton"
+		"xpos"			"c114"
+		"ypos"			"c83"
+		"zpos"			"12"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"0"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"200 200 200 255"
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/mainmenu/icon_reload"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}				
+		}
+	}
+
+	// OnlyAtMenu Buttons
+	// Have associated stuff in gamemenu.res
+
 	"DemoUIButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DemoUIButton"
-		"xpos"			"c-42"
+		"xpos"			"c-64"
 		"ypos"			"c136"
 		"zpos"			"12"
 		"wide"			"32"
@@ -3059,12 +3171,12 @@
 		}
 	}
 
-	"MinmodeToggleButton"
+	"CommunityServerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"MinmodeToggleButton"
-		"xpos"			"c10"
-		"ypos"			"c136"
+		"fieldname"		"CommunityServerButton"
+		"xpos"			"c-16"
+		"ypos"			"c135"
 		"zpos"			"12"
 		"wide"			"32"
 		"tall"			"32"
@@ -3115,7 +3227,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/mainmenu/icon_reload"
+				"image"			"replay/thumbnails/mainmenu/icon_globe"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}				
@@ -3126,7 +3238,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DiscordButton"
-		"xpos"			"c62"
+		"xpos"			"c32"
 		"ypos"			"c135"
 		"zpos"			"12"
 		"wide"			"32"

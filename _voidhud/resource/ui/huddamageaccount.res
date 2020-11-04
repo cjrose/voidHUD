@@ -9,8 +9,8 @@
 		"PositiveColor"			"vPlayerHealthPickup"
 		"NegativeColor"			"vPlayerDamageAccount"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"sb16"
-		"delta_item_font_big"	"sb20"
+		"delta_item_font"		"sb16_Outline"
+		"delta_item_font_big"	"sb20_Outline"
 	}
 
 	"DamageAccountValue"

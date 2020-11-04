@@ -610,15 +610,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"vNote"
-		"xpos"			"15"
-		"ypos"			"-20"
+		"xpos"			"5"
+		"ypos"			"-30"
 		"wide"			"100"
 		"tall"			"100"
 		"labelText"		"NOTE: You can use A and D keys to advance any pages with < and > buttons!"
 		"textAlignment"	"center"
 		"wrap"			"1"
 		"centerwrap"	"1"
-		"font"			"s10"
+		"font"			"s8"
 		"fgcolor"		"vWhite255"
 	}
 	

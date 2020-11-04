@@ -8,6 +8,7 @@
 		"ypos"						"cs-0.5"
 		"wide"						"500"
 		"tall"						"400"
+		"tall_minmode"				"265"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -23,6 +24,12 @@
 		"ping_width"				"20"
 		"killstreak_width"			"15"
 		"killstreak_image_width"	"15"
+
+		if_mvm
+		{
+			"wide"					"540"
+			"tall_minmode"			"400"
+		}
 	}
 
 	"BlueScoreBG"
@@ -381,7 +388,8 @@
 		if_mvm
 		{
 			"ypos"					"0"
-			"tall"					"448"
+			"wide"					"f0"
+			"tall"					"f0"
 		}
 	}
 
@@ -394,6 +402,7 @@
 		"zpos"						"20"
 		"wide"						"250"
 		"tall"						"255"
+		"tall_minmode"				"130"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
@@ -418,6 +427,7 @@
 		"zpos"						"20"
 		"wide"						"250"
 		"tall"						"255"
+		"tall_minmode"				"130"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
@@ -439,8 +449,10 @@
 		"fieldName"					"vStatsBG"
 		"xpos"						"0"
 		"ypos"						"285"
+		"ypos_minmode"				"170"
 		"wide"						"500"
 		"tall"						"115"
+		"tall_minmode"				"100"
 		"visible"					"1"
 		"enabled"					"1"
 		"fillcolor"					"vBlack50"
@@ -457,8 +469,10 @@
 		"fieldName"					"vServerInfoBG"
 		"xpos"						"0"
 		"ypos"						"285"
+		"ypos_minmode"				"170"
 		"wide"						"500"
 		"tall"						"45"
+		"tall_minmode"				"25"
 		"visible"					"1"
 		"enabled"					"1"
 		"fillcolor"					"vBlack50"
@@ -478,6 +492,7 @@
 		"textAlignment"				"west"
 		"xpos"						"5"
 		"ypos"						"280"
+		"ypos_minmode"				"165"
 		"wide"						"300"
 		"tall"						"25"
 		"autoResize"				"0"
@@ -488,6 +503,7 @@
 		if_mvm
 		{
 			"ypos"					"0"
+			"ypos_minmode"			"0"
 			"visible"				"1"
 		}
 	}
@@ -501,6 +517,7 @@
 		"textAlignment"				"center"
 		"xpos"						"390"
 		"ypos"						"287"
+		"ypos_minmode"				"173"
 		"zpos"						"2"
 		"wide"						"72"
 		"tall"						"10"
@@ -524,6 +541,7 @@
 		"textAlignment"				"east"
 		"xpos"						"440"
 		"ypos"						"282"
+		"ypos_minmode"				"168"
 		"zpos"						"2"
 		"wide"						"72"
 		"tall"						"20"
@@ -549,6 +567,7 @@
 		"textAlignment"				"west"
 		"xpos"						"4"
 		"ypos"						"293"
+		"ypos_minmode"				"178"
 		"zpos"						"4"
 		"wide"						"300"
 		"tall"						"20"
@@ -559,7 +578,8 @@
 		
 		if_mvm
 		{
-			"ypos"					"428"
+			"ypos"					"220"
+			"ypos_minmode"			"220"
 		}
 	}
 
@@ -572,6 +592,7 @@
 		"textAlignment"				"west"
 		"xpos"						"4"
 		"ypos"						"300"
+		"ypos"						"185"
 		"zpos"						"4"
 		"wide"						"300"
 		"tall"						"20"
@@ -601,11 +622,12 @@
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
+		"visible_minmode"			"0"
 		"enabled"					"1"
 		
 		if_mvm
 		{
-			"visible"				"1"
+			"visible"				"0"
 			"wide"					"175"
 		}
 	}
@@ -619,6 +641,7 @@
 		"textAlignment"				"west"
 		"xpos"						"5"
 		"ypos"						"280"
+		"ypos_minmode"				"165"
 		"wide"						"200"
 		"tall"						"25"
 		"autoResize"				"0"
@@ -629,6 +652,7 @@
 		if_mvm
 		{
 			"ypos"					"0"
+			"ypos_minmode"			"0"
 			"visible"				"1"
 		}
 	}
@@ -648,6 +672,7 @@
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
+		"visible_minmode"			"0"
 		"enabled"					"1"
 		"fgcolor"					"vWhite255"
 
@@ -663,13 +688,19 @@
 		"fieldNawme"				"vPlayerStatsBG"
 		"xpos"						"0"
 		"ypos"						"332"
-		"wide"						"500"
+		"ypos_minmode"				"196"
+		"wide"						"f0"
 		"tall"						"70"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"fillcolor"					"vBlack50"
+
+		if_mvm
+		{
+			"ypos_minmode"			"332"
+		}
 	}
 
 	"LocalPlayerStatsPanel"
@@ -678,6 +709,7 @@
 		"fieldName"					"LocalPlayerStatsPanel"
 		"xpos"						"0"
 		"ypos"						"332"
+		"ypos_minmode"				"195"
 		"wide"						"500"
 		"tall"						"70"
 		"autoResize"				"0"
@@ -688,6 +720,9 @@
 		if_mvm
 		{
 			"visible"				"1"
+			"xpos"					"15"
+			"xpos_minmode"			"15"
+			"ypos_minmode"			"332"
 		}
 
 		"Kills"
@@ -1868,6 +1903,7 @@
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"-50"
 		"ypos"			"332"
+		"ypos_minmode"	"195"
 		"zpos"			"3"
 		"wide"			"500"
 		"tall"			"70"
@@ -2449,7 +2485,8 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"xpos"			"-180"
+			"ypos"			"15"
 			"visible"		"1"
 		}
 	}

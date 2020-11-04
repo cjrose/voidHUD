@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "console/background_upward"
+	"$nolod" 1
+}

@@ -1,6 +1,35 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Release 11.04.2020
+----------------------------------------------
++ Added tournament spectator
++ Added tournament HUD
++ Added clientscheme linux support (maybe)
++ Added a minmode toggleable smaller scoreboard for 6s
++ Added a button to open community server browser and moved the toggle console and minmode buttons to the permanent row
++ Added support for tc_hydro
++ Added support for pd_ and rd_ gamemodes
++ Added support for mvm
++ Added avatars to voice status
++ Added arena support
++ Added shop menu
++ Added pass time support
++ Added main menu background
++ Added backpack item design
++ Added source scheme design
++ Added customization parity with staticHUD
+~ Added a team indicator to the targetID
+~ Adjusted the positioning of reserve ammo to have some more space
+~ Adjusted the avatar position in the kill cam
+~ Added an outline to damage numbers
+~ Fixed the loading screen being broken
+~ Made the medic charge label center aligned
+~ Fixed the positioning of the capture label
+~ Commented out all unusued font sizes to improve startup performance
+
+
+----------------------------------------------
 		Rewrite Beta 10.30.2020
 ----------------------------------------------
 + Added taunt menu

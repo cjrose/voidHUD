@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\backpack\backpack_rect"
+	"$translucent" 1
+	"$ignorez" 1
+}

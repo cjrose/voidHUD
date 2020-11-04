@@ -1,6 +1,6 @@
 #base "blue_base.res"
 
-"Resource/UI/disguise_menu/scout_red.res"
+"Resource/UI/disguise_menu/medic_blue.res"
 {
 	"ItemNameLabel"
 	{	
@@ -14,7 +14,7 @@
 
 	"NewNumberLabel"
 	{
-		"labelText"		"7"
+		"labelText"		"1"
 	}
 
 	"NumberLabel"

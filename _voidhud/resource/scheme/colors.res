@@ -19,6 +19,7 @@ Scheme
 		"vLightRed255"		"252 73 73 255"
 		"vDarkRed255"		"215 49 49 255"
 		"vRed150"			"244 91 105 150"
+		"vDarkGray255"		"75 75 75 255"
 		"vGray255"			"100 100 100 255"
 		"vLightGray255"		"175 175 175 255"
 		// Colors for customization
@@ -72,6 +73,9 @@ Scheme
 		"vRedLoadoutButtonArmed"		"252 73 73 255"
 		"vBluLoadoutButton"				"64 98 187 255"
 		"vBluLoadoutButtonArmed"		"48 145 209 255"
+
+		"vTournamentHealthLow"			"0 0 0 150"
+		"vTournamentHealthOverheal"		"89 195 195 150"
 
 
 
