@@ -293,7 +293,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"labelText"		"voidHUD Release 11.04.2020"
+		"labelText"		"voidHUD Release 11.06.2020"
 		"fgcolor"		"vWhite255"
 		"font"			"s12"
 	}

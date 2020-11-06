@@ -447,4 +447,15 @@
 		"ItemFadeOutTime"	"0.3"
 		"topoffset"		"0"
 	}
+
+	HudTeamGoalTournament
+	{
+		"fieldName"				"HudTeamGoalTournament"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"9999"
+		"ypos"					"9999"
+		"wide"					"320"
+		"tall"					"300"
+	}
 }

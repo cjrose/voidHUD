@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"0"
+		"xpos"			"35"
 		"ypos"			"-32"
 		"zpos"			"-1"
 		"wide"			"f0"
@@ -46,43 +46,43 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"35"
+		"ypos"			"-32"
 		"zpos"			"-1"
-		"wide"			"0"
-		"tall"	 		"0"
+		"wide"			"f0"
+		"tall"	 		"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""
+		"enabled"		"1"
+		"image"			"../hud/misc_ammo_area_blue"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"35"
+		"ypos"			"-32"
 		"zpos"			"-1"
-		"wide"			"0"
-		"tall"	 		"0"
+		"wide"			"f0"
+		"tall"	 		"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""
+		"enabled"		"1"
+		"image"			"../hud/misc_ammo_area_red"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	
 	"TargetNameLabel"

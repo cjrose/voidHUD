@@ -1,6 +1,14 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Release 11.06.2020
+----------------------------------------------
++ Added a customization to move the killstreak amount to the voidHUD Classic position
++ Added tournament stopwatch HUD
+~ Fixed team indicator for target IDs overlapping the player's health
+
+
+----------------------------------------------
 		Release 11.04.2020
 ----------------------------------------------
 + Added tournament spectator
