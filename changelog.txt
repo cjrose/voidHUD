@@ -1,6 +1,18 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Release 11.15.2020
+----------------------------------------------
++ Added Sansation (voidHUD Classic font) font override, check wiki for installation
++ Added Product Sans (Google Font) font override, check wiki for installation
++ Added Comic Sans MS (WHY) font override, check wiki for installation
++ Added DaysOne (Old STAR_ HUD Font) font override, check wiki for installation
++ Added Surface (Old broeselHUD font) font override, check wiki for installation
++ Added Handel Gothic (Quake font) font override, check wiki for installation
++ Added TF2 font override, check wiki for installation
+
+
+----------------------------------------------
 		Release 11.06.2020
 ----------------------------------------------
 + Added a customization to move the killstreak amount to the voidHUD Classic position

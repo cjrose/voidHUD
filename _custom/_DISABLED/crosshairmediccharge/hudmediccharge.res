@@ -19,7 +19,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"sb10_Outline"
+		"font"			"sb10"
 	}
 
 	"IndividualChargesLabel"
@@ -40,7 +40,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"sb10_Outline"
+		"font"			"sb10"
 	}
 	
 	"ChargeMeter"
