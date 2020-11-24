@@ -21,6 +21,9 @@
 // -- GOOGLE FONT --
 //#base "../_voidhud/resource/scheme/fonts_productsans.res"
 
+// -- MONSTERRAT FONT --
+//#base "../_voidhud/resource/scheme/fonts_monsterrat.res"
+
 // -- QUAKE NUMBERS --
 //#base "../_voidhud/resource/scheme/fonts_quake.res"
 

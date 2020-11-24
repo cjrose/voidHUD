@@ -50,7 +50,7 @@
 			"xpos"			"23"
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
@@ -61,10 +61,10 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"10"
+				"xpos"			"cs-1.0+2"
 				"ypos"			"10"
+				"wide"			"50"
 				"tall"			"31"
-				"wide"			"35"
 				"font"			"sb16"
 			
 			}
@@ -124,9 +124,9 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"rs1-10"
+				"xpos"			"cs0"
 				"ypos"			"10"
-				"wide"			"35"
+				"wide"			"50"
 				"tall"			"31"
 				"font"			"sb16"
 			

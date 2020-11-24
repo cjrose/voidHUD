@@ -1,6 +1,18 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Release 11.24.2020
+----------------------------------------------
++ Overhauled the 6s Scoreboard toggle. Check the Imgur Album for a screenshot
++ Added Montserrat font override, check wiki for installation
+~ Fixed item inspection panel having low-res item models
+~ Fixed the ammo icon in the targetID being overlapped with certain font overrides
+~ Fixed KOTH timers being cut off with the Quake font override
+~ Fixed kill icons being broken on Linux
+- Removed the increased boldness on the Quake font override and the TF2 font override to improve quality, check wiki for how they look now
+
+
+----------------------------------------------
 		Release 11.15.2020
 ----------------------------------------------
 + Added Sansation (voidHUD Classic font) font override, check wiki for installation

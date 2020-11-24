@@ -184,7 +184,6 @@ Scheme
 		// 	"1"
 		// 	{
 		// 		"name"		"TF2 Build"
-		// 		"weight"	"900"
 		// 		"tall"		"8"
 		// 		"additive"	"0"
 		// 		"antialias"	"1"
@@ -195,7 +194,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"900"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias"	"1"
@@ -206,7 +204,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"900"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias"	"1"
@@ -217,7 +214,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"900"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias"	"1"
@@ -228,7 +224,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"900"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias"	"1"
@@ -239,7 +234,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"900"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias"	"1"
@@ -250,7 +244,6 @@ Scheme
 		// 	"1"
 		// 	{
 		// 		"name"		"TF2 Build"
-		// 		"weight"	"900"
 		// 		"tall"		"28"
 		// 		"additive"	"0"
 		// 		"antialias"	"1"
@@ -261,7 +254,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"900"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias"	"1"
@@ -272,7 +264,6 @@ Scheme
 		// 	"1"
 		// 	{
 		// 		"name"		"TF2 Build"
-		// 		"weight"	"900"
 		// 		"tall"		"36"
 		// 		"additive"	"0"
 		// 		"antialias"	"1"
@@ -283,7 +274,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"900"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias"	"1"
@@ -294,7 +284,6 @@ Scheme
 		// 	"1"
 		// 	{
 		// 		"name"		"TF2 Build"
-		// 		"weight"	"900"
 		// 		"tall"		"44"
 		// 		"additive"	"0"
 		// 		"antialias"	"1"
@@ -305,7 +294,6 @@ Scheme
 		// 	"1"
 		// 	{
 		// 		"name"		"TF2 Build"
-		// 		"weight"	"900"
 		// 		"tall"		"48"
 		// 		"additive"	"0"
 		// 		"antialias"	"1"
@@ -316,7 +304,6 @@ Scheme
 		// 	"1"
 		// 	{
 		// 		"name"		"TF2 Build"
-		// 		"weight"	"900"
 		// 		"tall"		"52"
 		// 		"additive"	"0"
 		// 		"antialias"	"1"
@@ -327,7 +314,6 @@ Scheme
 		// 	"1"
 		// 	{
 		// 		"name"		"TF2 Build"
-		// 		"weight"	"900"
 		// 		"tall"		"56"
 		// 		"additive"	"0"
 		// 		"antialias"	"1"
@@ -338,7 +324,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"900"
 				"tall"		"60"
 				"additive"	"0"
 				"antialias"	"1"
@@ -350,7 +335,6 @@ Scheme
 		// 	"1"
 		// 	{
 		// 		"name"		"TF2 Build"
-		// 		"weight"	"900"
 		// 		"tall"		"8"
 		// 		"additive"	"0"
 		// 		"antialias"	"1"
@@ -363,7 +347,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"900"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias"	"1"
@@ -376,7 +359,6 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"900"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias"	"1"
