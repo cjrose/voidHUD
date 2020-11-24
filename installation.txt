@@ -6,6 +6,8 @@
 For specific install instructions for your system, please visit the great guides available at HUDs.TF created by omni.
 https://huds.tf/forum/forumdisplay.php?fid=29
 
+For installing on Linux, make sure the voidHUD folder is renamed to be all lowercase! It should just be voidhud
+
 Need additional help? Join the HUD discord and ask me directly! 
 http://discord.gg/NtQ3FsT
 
