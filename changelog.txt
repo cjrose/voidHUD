@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Release 12.06.2020
+----------------------------------------------
+~ Fixed preloading errors for some materials
+~ Fixed the 6s scoreboard not moving the team names correctly
+
+
+----------------------------------------------
 		Release 11.24.2020
 ----------------------------------------------
 + Overhauled the 6s Scoreboard toggle. Check the Imgur Album for a screenshot

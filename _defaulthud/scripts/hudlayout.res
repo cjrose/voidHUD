@@ -1150,7 +1150,7 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"cs-0.5"
+		"xpos"					"c-160"
 		"ypos"					"5"
 		"ypos_minbad"				"15"
 		"ypos_lodef"				"75"

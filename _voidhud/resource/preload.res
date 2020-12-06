@@ -549,20 +549,12 @@
         "image"         "../sprites/obj_icons/icon_obj_white"
     }
 
-    "hpbaroverlay"
-    {
-        "ControlName"   "ImagePanel"
-        "fieldName"     "hpbaroverlay"
-        "xpos"          "9999"
-        "image"         "replay/thumbnails/hp/hpoverlay"
-    }
-
     "backpack_rect"
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "backpack_rect"
         "xpos"          "9999"
-        "image"         "replay/thumbnails/backpack/backpack_rect"
+        "image"         "backpack_rect"
     }
 
     "backpack_rect_color"
@@ -570,7 +562,7 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "backpack_rect_color"
         "xpos"          "9999"
-        "image"         "replay/thumbnails/backpack/backpack_rect_color"
+        "image"         "backpack_rect_color"
     }
 
     "backpack_rect_mouseover"
@@ -578,7 +570,7 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "backpack_rect_mouseover"
         "xpos"          "9999"
-        "image"         "replay/thumbnails/backpack/backpack_rect_mouseover"
+        "image"         "backpack_rect_mouseover"
     }
 
     "backpack_rect_mouseover_color"
@@ -586,7 +578,7 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "backpack_rect_mouseover_color"
         "xpos"          "9999"
-        "image"         "replay/thumbnails/backpack/backpack_rect_mouseover_color"
+        "image"         "backpack_rect_mouseover_color"
     }
 
     "backpack_rect_selected"
@@ -594,6 +586,6 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "backpack_rect_selected"
         "xpos"          "9999"
-        "image"         "replay/thumbnails/backpack/backpack_rect_selected"
+        "image"         "backpack_rect_selected"
     }
 }

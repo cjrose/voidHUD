@@ -21,7 +21,7 @@
 // -- GOOGLE FONT --
 //#base "../_voidhud/resource/scheme/fonts_productsans.res"
 
-// -- MONSTERRAT FONT --
+// -- MONTSERRAT FONT --
 //#base "../_voidhud/resource/scheme/fonts_monsterrat.res"
 
 // -- QUAKE NUMBERS --
