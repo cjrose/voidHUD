@@ -1,6 +1,15 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Release 01.16.2021
+----------------------------------------------
++ New main menu design
++ New defualt font (Product Sans), old font can be accessed through customizations (check wiki)
+~ Fixed loose cannon, shield overlap
+~ Fixed party chat not working properly
+
+
+----------------------------------------------
 		Release 12.06.2020
 ----------------------------------------------
 ~ Fixed preloading errors for some materials

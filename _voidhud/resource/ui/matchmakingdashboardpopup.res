@@ -514,8 +514,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MatchReadyAndWaitingContainer"
-			"xpos"			"cs-0.5"
-			"ypos"			"0"
+			"xpos"			"cs-0.3"
+			"ypos"			"3"
 			"zpos"			"0"
 			"wide"			"f8"
 			"tall"			"f4"
@@ -659,8 +659,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RematchStartingContainer"
-			"xpos"			"cs-0.5"
-			"ypos"			"0"
+			"xpos"			"cs-0.3"
+			"ypos"			"3"
 			"zpos"			"0"
 			"wide"			"f8"
 			"tall"			"f4"

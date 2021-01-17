@@ -16,7 +16,21 @@
 
 	"EmptyImage"
 	{
-		"ControlName"	"ImagePanel"
+		// "ControlName"	"ImagePanel"
+		// "fieldName"		"EmptyImage"
+		// "xpos"			"1"
+		// "ypos"			"1"
+		// "zpos"			"100"
+		// "wide"			"f2"
+		// "tall"			"f2"
+		// "visible"		"1"
+		// "proportionaltoparent"	"1"
+		// "scaleImage"	"1"
+		// "image"			""
+		// //"image"			"class_portraits/silhouette_alpha"
+		// "mouseinputenabled"	"0"
+
+		"ControlName"	"CExLabel"
 		"fieldName"		"EmptyImage"
 		"xpos"			"1"
 		"ypos"			"1"
@@ -24,10 +38,12 @@
 		"wide"			"f2"
 		"tall"			"f2"
 		"visible"		"1"
+		"enabled"		"1"
 		"proportionaltoparent"	"1"
-		"scaleImage"	"1"
-		"image"			"class_portraits/silhouette_alpha"
-		"mouseinputenabled"	"0"
+		"labelText"		"P"
+		"textAlignment"	"center"
+		"font"			"icon24"
+		"fgcolor"		"vBlack255"
 	}
 
 	"LeaderIcon"

@@ -202,21 +202,45 @@
 			"wide"			"505"
 		}
 
+		"vNameLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"vNameLabel"
+			"xpos"			"cs-0.5"
+			"ypos"			"-2"
+			"wide"			"200"
+			"tall"			"20"
+			"zpos"			"100"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"vWhite255"
+			"textAlignment"	"center"
+			"font"			"sb16"
+			"labelText"		"%name%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"visible"	"0"
+			}
+		}
+
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"2"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"sb12"
+			"visible"		"0"
+			"enabled"		"0"
+			"font"			"sb16"
 			"fgcolor_override"	"vWhite255"
-			"textAlignment"	"north-west"
+			"textAlignment"	"center"
 			"labelText"		"%name%"
+			"textinsetx"	"-30"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -229,8 +253,8 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"rs1-6"
-			"ypos"			"8"
+			"xpos"			"cs-0.5"
+			"ypos"			"15"
 			"wide"			"100"
 			"zpos"			"100"
 			"tall"			"20"
@@ -238,7 +262,7 @@
 			"enabled"		"1"
 			"font"			"s8"
 			"fgcolor_override"	"vWhite255"
-			"textAlignment"	"east"
+			"textAlignment"	"center"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
@@ -260,8 +284,8 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
-			"ypos"			"13"
+			"xpos"			"cs-0.5"
+			"ypos"			"8"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
@@ -269,7 +293,7 @@
 			"enabled"		"1"
 			"font"			"s10"
 			"fgcolor_override"	"vWhite255"
-			"textAlignment"	"north-west"
+			"textAlignment"	"center"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
@@ -297,8 +321,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"0"
-			"ypos"			"-19"
+			"xpos"			"cs-0.5"
+			"ypos"			"-5"
 			"wide"			"f0"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
@@ -315,8 +339,8 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"cs-0.5-2"
-				"ypos"			"rs1-2"
-				"wide"			"f3"
+				"ypos"			"rs1-30"
+				"wide"			"f65"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
@@ -417,10 +441,10 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"55"
-				"ypos"			"45"
+				"xpos"			"cs-0.25+10"
+				"ypos"			"35"
 				"wide"			"f0"
-				"tall"			"p0.45"
+				"tall"			"p0.55"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 0"
@@ -450,7 +474,7 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"GamesLabel"
-					"xpos"			"10"
+					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
@@ -468,7 +492,7 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"KillsLabel"
-					"xpos"			"10"
+					"xpos"			"0"
 					"ypos"			"10"
 					"zpos"			"0"
 					"wide"			"100"
@@ -486,8 +510,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DeathsLabel"
-					"xpos"			"10"
-					"ypos"			"20"
+					"xpos"			"55"
+					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -505,7 +529,7 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DamageLabel"
-					"xpos"			"c-75"
+					"xpos"			"110"
 					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
@@ -523,7 +547,7 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
-					"xpos"			"c-75"
+					"xpos"			"110"
 					"ypos"			"10"
 					"zpos"			"0"
 					"wide"			"100"
@@ -546,8 +570,8 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"1"
-					"enabled"		"1"
+					"visible"		"0"
+					"enabled"		"0"
 					"font"			"s8"
 					"fgcolor_override"	"vWhite255"
 					"textAlignment"	"north-west"
@@ -560,7 +584,7 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"ScoreLabel"
-					"xpos"			"rs1-50"
+					"xpos"			"55"
 					"ypos"			"10"
 					"zpos"			"0"
 					"wide"			"100"

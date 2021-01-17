@@ -3,8 +3,11 @@
 // font override #base line you would like to enable
 
 
-// -- VERDANA FONT (Base font) --
-#base "../_voidhud/resource/scheme/fonts.res"
+// -- GOOGLE FONT (New font) --
+#base "../_voidhud/resource/scheme/fonts_productsans.res"
+
+// -- VERDANA FONT (Old font) --
+//#base "../_voidhud/resource/scheme/fonts.res"
 
 // -- DEFAULT TF2 FONTS, REMAIN PURE --
 //#base "../_voidhud/resource/scheme/fonts_tf.res"
@@ -17,9 +20,6 @@
 
 // -- BROESELHUD FONT --
 //#base "../_voidhud/resource/scheme/fonts_surface.res"
-
-// -- GOOGLE FONT --
-//#base "../_voidhud/resource/scheme/fonts_productsans.res"
 
 // -- MONTSERRAT FONT --
 //#base "../_voidhud/resource/scheme/fonts_monsterrat.res"

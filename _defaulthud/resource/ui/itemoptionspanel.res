@@ -1,4 +1,4 @@
-"Resource/UI/ItemOptionsPanel.res"
+"Resource/UI/LoadoutParticleSlider.res"
 {
 	"PanelListPanel"
 	{

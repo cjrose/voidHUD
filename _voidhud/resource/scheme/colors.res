@@ -6,6 +6,7 @@ Scheme
   		// 000000 4062BB 59C3C3 EBEBEB F45B69
 		"vBlack255"			"0 0 0 255"
 		"vBlack230"			"0 0 0 230"
+		"vBlack200"			"0 0 0 200"
 		"vBlack150"			"0 0 0 150"
 		"vBlack50"			"0 0 0 50"
 		"vLighterBlack255"	"25 25 25 255"

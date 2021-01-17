@@ -6,7 +6,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"1"
-		"ypos"					"5"
+		"ypos"					"10"
 		"zpos"					"1001"
 		"wide"					"200"
 		"tall"					"200"
@@ -15,9 +15,9 @@
 		"mouseinputenabled"		"1"
 		"border"		"QuickplayBorder"
 
-		"log_font_small"			"s12"
-		"log_font_medium"			"s16"
-		"log_font_large"			"s20"
+		"log_font_small"			"s16"
+		"log_font_medium"			"s20"
+		"log_font_large"			"s24"
 
 		"chat_color_default"		"vWhite255"
 		"chat_color_player_name"	"vLightBlue255"
@@ -25,7 +25,7 @@
 		"chat_color_party_event"	"Orange"
 
 		"collapsed_height"		"0"
-		"expanded_height"		"180"
+		"expanded_height"		"200"
 		"resize_time"	"0.3"
 		"invalidate_parent_on_resize"	"0"
 	}
