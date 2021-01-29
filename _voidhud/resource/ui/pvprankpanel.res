@@ -344,6 +344,14 @@
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
+				if_mini
+				{
+					"xpos"		"cs-0.5"
+					"ypos"		"rs1-3"
+					"wide"		"p1"
+					"tall"		"30"
+				}
+
 	
 
 				"CurrentXPLabel"
@@ -362,6 +370,11 @@
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
+
+					if_mini
+					{
+						"ypos"			"rs1"
+					}
 				}
 
 				"NextLevelXPLabel"
@@ -380,6 +393,12 @@
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+
+					if_mini
+					{
+						"xpos"			"rs1"
+						"ypos"			"rs1"
+					}
 				}
 
 				"ProgressBarsContainer"

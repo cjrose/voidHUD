@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui\replay\thumbnails\mainmenu\icon_contract"
-	"$translucent" 1
-	"$ignorez" 1
-	"$vertexcolor" 1
-}

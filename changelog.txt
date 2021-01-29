@@ -1,6 +1,15 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Release 01.29.2021
+----------------------------------------------
+~ Fixed the XP bar not appearing at the end screen of casual mode
+~ Updated the color of the play button and quit game button to match the gray scheme of the rest of the main menu
++ Added an HP Cross customization to re-add the player health cross
+- Removed some material files from the old main menu that I forgot to delete
+
+
+----------------------------------------------
 		Release 01.16.2021
 ----------------------------------------------
 + New main menu design
