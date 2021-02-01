@@ -1,6 +1,16 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Release 02.01.2021
+----------------------------------------------
++ Added dropshadow to the medi gun Ubercharge label. This will cause issues if you plan to use the Vaccinator often. If you'd rather not have the dropshadow and avoid the vaccinator issue, I added a customization to remove it called 'nomedigundropshadow'
++ Added Spongebob font override. Check wiki for how to enable
++ Added Bebas Neue font override. Check wiki for how to enable
++ Added The Bold Font override. Check wiki for how to enable
++ Added Blue Highway font override. Check wiki for how to enable
+
+
+----------------------------------------------
 		Release 01.29.2021
 ----------------------------------------------
 ~ Fixed the XP bar not appearing at the end screen of casual mode

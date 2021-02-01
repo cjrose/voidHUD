@@ -2,6 +2,6 @@
 {
     "vVersionLabel"
     {
-        "labelText"     "voidHUD Release 01.29.2021"
+        "labelText"     "voidHUD Release 02.01.2021"
     }
 }
