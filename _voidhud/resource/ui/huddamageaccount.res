@@ -8,7 +8,7 @@
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"vPlayerHealthPickup"
 		"NegativeColor"			"vPlayerDamageAccount"
-		"delta_lifetime"		"1.5"
+		"delta_lifetime"		"1.25"
 		"delta_item_font"		"sb16_Outline"
 		"delta_item_font_big"	"sb20_Outline"
 	}

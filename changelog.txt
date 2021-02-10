@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Release 02.10.2021
+----------------------------------------------
+~ Slightly reduced the time damage numbers stay visible for
+~ Overhauled the team status at the top of the screen for the 6v6 toggle mode
+
+
+----------------------------------------------
 		Release 02.01.2021
 ----------------------------------------------
 + Added dropshadow to the medi gun Ubercharge label. This will cause issues if you plan to use the Vaccinator often. If you'd rather not have the dropshadow and avoid the vaccinator issue, I added a customization to remove it called 'nomedigundropshadow'
