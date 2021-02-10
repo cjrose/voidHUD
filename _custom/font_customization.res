@@ -3,7 +3,7 @@
 // font override #base line you would like to enable
 
 
-// -- GOOGLE FONT (New font) --
+// -- PRODUCT SANS (New font) --
 #base "../_voidhud/resource/scheme/fonts_productsans.res"
 
 // -- VERDANA FONT (Old font) --
@@ -26,6 +26,19 @@
 
 // -- QUAKE NUMBERS --
 //#base "../_voidhud/resource/scheme/fonts_quake.res"
+
+// -- SPONGEBOB FONT --
+// Note this one may be missing some symbols
+//#base "../_voidhud/resource/scheme/fonts_spongebob.res"
+
+// -- BEBAS NEUE FONT --
+//#base "../_voidhud/resource/scheme/fonts_bebasneue.res"
+
+// -- THE BOLD FONT (staticHUD) --
+//#base "../_voidhud/resource/scheme/fonts_boldfont.res"
+
+// -- BLUE HIGHWAY (boredHUD font) --
+//#base "../_voidhud/resource/scheme/fonts_bluehighway.res"
 
 // THE FOLLOWING ARE WINDOWS ONLY
 
