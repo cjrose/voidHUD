@@ -22,6 +22,11 @@
 		"font"			"sb10"
 	}
 
+	"ChargeLabelShadow"
+	{
+		"visible"		"0"
+	}
+
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"

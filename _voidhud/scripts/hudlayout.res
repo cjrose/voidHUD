@@ -458,4 +458,15 @@
 		"wide"					"320"
 		"tall"					"300"
 	}
+
+	NotificationPanel
+	{
+		"fieldName"				"NotificationPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-320"
+		"ypos"					"r60"
+		"wide"					"640"
+		"tall"					"100"
+	}
 }

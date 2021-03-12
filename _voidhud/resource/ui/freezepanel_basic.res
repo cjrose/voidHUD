@@ -290,11 +290,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ScreenshotPanel"
-		"xpos"			"10"
-		"ypos"			"10"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
-		"wide"			"166"
-		"tall"			"40"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 			
 		"ScreenshotPanelBG"

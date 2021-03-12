@@ -23,6 +23,9 @@ Scheme
 		"vDarkGray255"		"75 75 75 255"
 		"vGray255"			"100 100 100 255"
 		"vLightGray255"		"175 175 175 255"
+		"vMutedGreen255"	"34 74 34 255"
+		"vMutedRed255"		"115 37 37 255"
+		"vGreen255"			"73 110 36 255"
 		// Colors for customization
 
 		"vPlayerHealthColor"			"235 235 235 255"

@@ -10,12 +10,13 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-320"
-		"team1_player_base_y"				"450"
+		"team1_player_base_offset_x"		"0"
+		"team1_player_base_y"				"400"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-21"
-		"team2_player_base_offset_x"		"170"
-		"team2_player_base_y"				"450"
+
+		"team2_player_base_offset_x"		"277"
+		"team2_player_base_y"				"400"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"-21"
 		
@@ -37,7 +38,7 @@
 				"xpos"			"22"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"108"
+				"wide"			"106"
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -48,11 +49,13 @@
 					
 				if_mvm
 				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"			"s10"
+					"xpos"			"22"
+					"ypos"			"0"
+					"zpos"			"5"
+					"wide"			"106"
+					"tall"			"20"
+					"textAlignment"	"north-west"
 				}
 			}
 
@@ -64,7 +67,7 @@
 				"xpos"			"23"
 				"ypos"			"1"
 				"zpos"			"5"
-				"wide"			"108"
+				"wide"			"106"
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -75,11 +78,7 @@
 					
 				if_mvm
 				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+
 				}
 			}
 			
@@ -99,8 +98,8 @@
 				
 				if_mvm
 				{
-					"xpos"			"5"
-					"ypos"			"4"
+					"xpos"			"0"
+					"ypos"			"0"
 					"wide"			"20"
 					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
@@ -213,7 +212,7 @@
 				
 				if_mvm
 				{
-					"ypos"			"17"
+					"ypos"			"0"
 				}
 			}
 			
@@ -273,19 +272,17 @@
 			
 			if_mvm
 			{
-				"wide"		"55"
-				"tall"		"35"
+				"wide"		"150"
+				"tall"		"20"
 			}
 		}
 		
 		if_mvm
 		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
+			"wide"					"f0"
+			"tall"					"480"
 	
-			"team1_player_delta_x"			"52"
+			"team1_player_delta_x"			"0"
 		}		
 	}
 
@@ -331,7 +328,7 @@
 		if_mvm
 		{
 			"xpos"			"c-190"
-			"ypos"			"1"
+			"ypos"			"100"
 			"wide"			"380"
 			"textAlignment"		"center"
 		}
@@ -357,6 +354,7 @@
 		if_mvm
 		{
 			"visible"		"1"
+			"ypos"			"125"
 		}	
 	}
 	"MapLabel"

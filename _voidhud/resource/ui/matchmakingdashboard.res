@@ -665,9 +665,9 @@
 			"armedFgColor_override"		"vWhite255"
 			"depressedFgColor_override" "vWhite255"
 
-			"defaultBgColor_override"	"vGray255"
-			"armedBgColor_override"		"vDarkGray255"
-			"depressedBgColor_override"	"vDarkGray255"
+			"defaultBgColor_override"	"vMutedRed255"
+			"armedBgColor_override"		"vRed255"
+			"depressedBgColor_override"	"vRed255"
 
 			"image_drawcolor"	"vWhite255"
 			"image_armedcolor"	"vWhite255"
@@ -726,9 +726,9 @@
 			"armedFgColor_override"		"vWhite255"
 			"depressedFgColor_override" "vWhite255"
 
-			"defaultBgColor_override"	"vGray255"
-			"armedBgColor_override"		"vDarkGray255"
-			"depressedBgColor_override"	"vDarkGray255"
+			"defaultBgColor_override"	"vMutedRed255"
+			"armedBgColor_override"		"vRed255"
+			"depressedBgColor_override"	"vRed255"
 
 			"image_drawcolor"	"vWhite255"
 			"image_armedcolor"	"vWhite255"
@@ -854,9 +854,9 @@
 			"armedFgColor_override"		"vWhite255"
 			"depressedFgColor_override" "vWhite255"
 
-			"defaultBgColor_override"	"vGray255"
-			"armedBgColor_override"		"vDarkGray255"
-			"depressedBgColor_override"	"vDarkGray255"
+			"defaultBgColor_override"	"vMutedGreen255"
+			"armedBgColor_override"		"vGreen255"
+			"depressedBgColor_override"	"vGreen255"
 
 			"SubImage"
 			{

@@ -1,6 +1,21 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Release 03.12.2021
+----------------------------------------------
++ Added color back to the "Find a Game" and quit buttons on the main menu. It's much more muted this time around
+- Removed the screenshot reminder panel from the killer freeze panel
+~ Adjusted player panels for spectator tournament HUD to be side-aligned rather than in the middle
+~ Removed the background from flag pickup notices and adjusted their position to be less intrusive ( this ones for the BBallers :] )
+~ Adjusted the centering of the CTF score labels
+~ Adjusted the tournament setup HUD to be smaller, and adjusted the centering of team name labels
+~ Fixed the ubercharge % shadow still being visible while using the crosshairmediccharge customization
+~ Fixed the killstreak icon in the targetID overlapping the actual number value
+~ Fixed the MvM Scoreboard being broken from the 6v6 minmode scoreboard update
+~ Fixed the MvM spectator tournament HUD (this may need more testing, it is fairly difficult to test offline)
+
+
+----------------------------------------------
 		Release 02.10.2021
 ----------------------------------------------
 ~ Slightly reduced the time damage numbers stay visible for

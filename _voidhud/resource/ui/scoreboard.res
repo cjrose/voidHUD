@@ -424,6 +424,7 @@
 			"ypos"					"0"
 			"wide"					"f0"
 			"tall"					"f0"
+			"xpos_minmode"			"0"
 		}
 	}
 
@@ -544,6 +545,7 @@
 			"ypos"					"0"
 			"ypos_minmode"			"0"
 			"visible"				"1"
+			"xpos_minmode"			"5"
 		}
 	}
 
@@ -701,7 +703,10 @@
 		{
 			"ypos"					"0"
 			"ypos_minmode"			"0"
+			"xpos_minmode"			"5"
 			"visible"				"1"
+			"wide"					"175"
+			"wide_minmode"			"175"
 		}
 	}
 
@@ -738,7 +743,7 @@
 		"xpos_minmode"				"350"
 		"ypos"						"332"
 		"ypos_minmode"				"335"
-		"wide"						"500"
+		"wide"						"f0"
 		"tall"						"70"
 		"tall_minmode"				"100"
 		"autoResize"				"0"
