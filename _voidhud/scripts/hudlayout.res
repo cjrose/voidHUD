@@ -83,6 +83,21 @@
 		"wide"					"0"
 		"tall"					"0"
 	}
+	
+	
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c-185"
+		"ypos"				"r65"
+		"wide"				"100"
+		"tall"				"100"
+		"xpos_minbad"		"65"
+		"ypos_minbad"		"r88"
+		"visible" 			"1"
+		"enabled" 			"1"
+	}
 
 	CHealthAccountPanel
 	{
