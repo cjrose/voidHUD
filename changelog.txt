@@ -1,6 +1,12 @@
 voidHUD Changelog
 
 ----------------------------------------------
+		Release 04.30.2023
+----------------------------------------------
+~ Fixed a bug with the MvM currency panel not being displayed
+
+
+----------------------------------------------
 		Release 03.12.2021
 ----------------------------------------------
 + Added color back to the "Find a Game" and quit buttons on the main menu. It's much more muted this time around
