@@ -13,8 +13,8 @@
 		
 //		"bgcolor_override"	"0 0 0 240"
 		
-		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
-		"blog_url"		"http://www.teamfortress.com/"
+		"update_url"	"https://store.steampowered.com/news/?filter=updates&appids=440"
+		"blog_url"		"https://www.teamfortress.com/"
 		
 		"button_x_offset"	"-285"
 		"button_y"			"120"
@@ -216,10 +216,14 @@
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_christmas
+		if_christmas_0
 		{
 			"image"		"../console/background_xmas2020_widescreen"
-		}		
+		}
+		if_christmas_1
+		{
+			"image"		"../console/background_xmas2023_widescreen"
+		}
 	}
 					
 	"TFLogoImage"
@@ -1707,102 +1711,87 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2020 Cosmetic Key" 
+						"item"		"Winter 2024 Cosmetic Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2020 Cosmetic Case"
+						"item"		"Winter 2024 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Winter 2020 War Paint Key"
+						"item"		"Taunt: Curtain Call"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Winter 2020 War Paint Case"
-						"show_market"	"1"
+						"item"		"Taunt: Peace!"
+						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: The Pooped Deck"
+						"item"		"Taunt: Fore-Head Slice"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Time Out Therapy"
+						"item"		"Map Token Overcast"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Taunt: Rocket Jockey"
+						"item"		"Map Token Fortezza"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Taunt: The Boston Boarder"
+						"item"		"Map Token Penguin Peak"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Taunt: Scorcher's Solo"
+						"item"		"Map Token Patagonia"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Taunt: Texas Truckin"
+						"item"		"Map Token Cutter"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Taunt: Spin-to-Win"
+						"item"		"Map Token Maul"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Taunt: The Fist Bump"
+						"item"		"Strange Filter: Overcast (Community)"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Map Token Pier"
+						"item"		"Strange Filter: Fortezza (Community)"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Strange Filter: Pier (Community)"
+						"item"		"Strange Filter: Penguin Peak (Community)"
 						"show_market"	"0"
-					}					
+					}
 					"14"
 					{
-						"item"		"Map Token SnowVille"
+						"item"		"Strange Filter: Patagonia (Community)"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Strange Filter: SnowVille (Community)"
+						"item"		"Strange Filter: Cutter (Community)"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Map Token Snowfall"
-						"show_market"	"0"
-					}
-					"17"
-					{
-						"item"		"Strange Filter: Snowfall (Community)"
-						"show_market"	"0"
-					}
-					"18"
-					{
-						"item"		"Map Token Wutville"
-						"show_market"	"0"
-					}
-					"19"
-					{
-						"item"		"Strange Filter: Wutville (Community)"
+						"item"		"Strange Filter: Maul (Community)"
 						"show_market"	"0"
 					}
 				}
@@ -2250,7 +2239,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+			"RoundedCorners"	"10"
 			
 			"paintbackground"	"1"
 			
@@ -2416,6 +2405,103 @@
 		}		
 	}
 
+	"SettingsButtonSDK"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"SettingsButtonSDK"
+		"xpos"			"c-34+273"
+		"ypos"			"437"
+		"zpos"			"4"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"west"
+		"textinsetx"	"25"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"OpenOptionsDialog"
+
+		"navUp"			"TF2SettingsButtonSDK"
+		"navLeft"		"TF2SettingsButtonSDK"
+		"navRight"		"TF2SettingsButtonSDK"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"6"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+
+	"TF2SettingsButtonSDK"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TF2SettingsButtonSDK"
+		"xpos"			"c-0+273"
+		"ypos"			"437"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"opentf2options"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"25"
+
+		"navUp"			"SettingsButtonSDK"
+		"navLeft"		"SettingsButtonSDK"
+		"navRight"		"SettingsButtonSDK"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"6"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+			"scaleImage"	"1"
+		}				
+	}
+	
 	"SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
